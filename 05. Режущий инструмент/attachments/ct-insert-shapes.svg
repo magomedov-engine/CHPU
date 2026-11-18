@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 330" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<rect x="2" y="2" width="856" height="326" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Формы сменных пластин: от прочных к «доступным»</text>
+<rect x="25" y="58" width="810" height="190" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+<circle cx="85" cy="140" r="40" fill="#CBD5E1" stroke="#475569" stroke-width="2"/>
+<circle cx="85" cy="140" r="6" fill="#FFFFFF" stroke="#475569"/>
+<text x="85" y="215" text-anchor="middle" font-size="22" font-weight="700" fill="#1E63D6">R</text>
+<text x="85" y="236" text-anchor="middle" font-size="12" fill="#1E293B">круглая</text>
+<rect x="164" y="104" width="72" height="72" fill="#CBD5E1" stroke="#475569" stroke-width="2"/>
+<circle cx="200" cy="140" r="6" fill="#FFFFFF" stroke="#475569"/>
+<text x="200" y="215" text-anchor="middle" font-size="22" font-weight="700" fill="#1E63D6">S</text>
+<text x="200" y="236" text-anchor="middle" font-size="12" fill="#1E293B">квадрат 90°</text>
+<polygon points="270.6,140.0 315.0,102.7 359.4,140.0 315.0,177.3" fill="#CBD5E1" stroke="#475569" stroke-width="2"/>
+<circle cx="315" cy="140" r="6" fill="#FFFFFF" stroke="#475569"/>
+<text x="315" y="215" text-anchor="middle" font-size="22" font-weight="700" fill="#1E63D6">C</text>
+<text x="315" y="236" text-anchor="middle" font-size="12" fill="#1E293B">ромб 80°</text>
+<polygon points="430.0,98.0 457.1,130.3 471.6,170.0 430.0,177.3 388.4,170.0 402.9,130.3" fill="#CBD5E1" stroke="#475569" stroke-width="2"/>
+<circle cx="430" cy="146" r="6" fill="#FFFFFF" stroke="#475569"/>
+<text x="430" y="215" text-anchor="middle" font-size="22" font-weight="700" fill="#1E63D6">W</text>
+<text x="430" y="236" text-anchor="middle" font-size="12" fill="#1E293B">тригон 80°</text>
+<polygon points="545.0,100.0 588.3,175.0 501.7,175.0" fill="#CBD5E1" stroke="#475569" stroke-width="2"/>
+<circle cx="545" cy="150" r="6" fill="#FFFFFF" stroke="#475569"/>
+<text x="545" y="215" text-anchor="middle" font-size="22" font-weight="700" fill="#1E63D6">T</text>
+<text x="545" y="236" text-anchor="middle" font-size="12" fill="#1E293B">треугольник 60°</text>
+<polygon points="606.8,140.0 660.0,112.3 713.2,140.0 660.0,167.7" fill="#CBD5E1" stroke="#475569" stroke-width="2"/>
+<circle cx="660" cy="140" r="6" fill="#FFFFFF" stroke="#475569"/>
+<text x="660" y="215" text-anchor="middle" font-size="22" font-weight="700" fill="#1E63D6">D</text>
+<text x="660" y="236" text-anchor="middle" font-size="12" fill="#1E293B">ромб 55°</text>
+<polygon points="715.9,140.0 775.0,121.4 834.1,140.0 775.0,158.6" fill="#CBD5E1" stroke="#475569" stroke-width="2"/>
+<circle cx="775" cy="140" r="6" fill="#FFFFFF" stroke="#475569"/>
+<text x="775" y="215" text-anchor="middle" font-size="22" font-weight="700" fill="#1E63D6">V</text>
+<text x="775" y="236" text-anchor="middle" font-size="12" fill="#1E293B">ромб 35°</text>
+<line x1="80" y1="272" x2="780" y2="272" stroke="#475569" stroke-width="2.5" marker-start="url(#ak)" marker-end="url(#ak)"/>
+<text x="40" y="300" font-size="13" fill="#1E293B"><tspan font-weight="700">← Больше угол</tspan>: прочнее кромка, больше съём,</text>
+<text x="40" y="318" font-size="13" fill="#1E293B">черновая обработка, больше кромок на пластине</text>
+<text x="820" y="300" text-anchor="end" font-size="13" fill="#1E293B"><tspan font-weight="700">Меньше угол →</tspan>: доступ к сложному профилю,</text>
+<text x="820" y="318" text-anchor="end" font-size="13" fill="#1E293B">меньше вибраций, чистовая и копировальная</text>
+</svg>

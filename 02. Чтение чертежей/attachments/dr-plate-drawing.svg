@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 640" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="d" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#1E293B"/></marker>
+  </defs>
+  <rect x="2" y="2" width="856" height="636" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="20" y="20" width="820" height="600" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="40" y="52" font-size="14" font-weight="700" fill="#475569">Учебный чертёж «Плита» (упрощённо)</text>
+  <!-- общая шероховатость -->
+  <text x="700" y="58" font-size="18" font-weight="700" fill="#1E293B">Ra 3,2</text>
+  <text x="764" y="60" font-size="22" fill="#1E293B">(</text>
+  <polyline points="773,46 777,54 786,38" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+  <text x="789" y="60" font-size="22" fill="#1E293B">)</text>
+
+  <!-- главный вид -->
+  <rect x="120" y="100" width="400" height="60" fill="none" stroke="#1E293B" stroke-width="2.4"/>
+  <g stroke="#1E293B" stroke-width="1.3" stroke-dasharray="6 4" fill="none">
+    <line x1="142" y1="100" x2="142" y2="160"/><line x1="178" y1="100" x2="178" y2="160"/>
+    <line x1="462" y1="100" x2="462" y2="160"/><line x1="498" y1="100" x2="498" y2="160"/>
+    <path d="M240,100 L240,120 L400,120 L400,100"/>
+    <line x1="308" y1="100" x2="308" y2="148"/><line x1="332" y1="100" x2="332" y2="148"/>
+  </g>
+  <g stroke="#1E293B" stroke-width="0.9" stroke-dasharray="10 3 2 3">
+    <line x1="160" y1="92" x2="160" y2="168"/><line x1="480" y1="92" x2="480" y2="168"/><line x1="320" y1="92" x2="320" y2="168"/>
+  </g>
+
+  <!-- вид сверху -->
+  <rect x="120" y="200" width="400" height="240" fill="none" stroke="#1E293B" stroke-width="2.4"/>
+  <rect x="240" y="280" width="160" height="80" rx="20" fill="none" stroke="#1E293B" stroke-width="2.4"/>
+  <g fill="none" stroke="#1E293B" stroke-width="2.4">
+    <circle cx="160" cy="400" r="18"/><circle cx="480" cy="400" r="18"/><circle cx="160" cy="240" r="18"/><circle cx="480" cy="240" r="18"/>
+    <circle cx="320" cy="400" r="10"/><circle cx="320" cy="240" r="10"/>
+  </g>
+  <g fill="none" stroke="#1E293B" stroke-width="1">
+    <path d="M331.8,402.1 A12 12 0 1 1 322.1,388.2"/><path d="M331.8,242.1 A12 12 0 1 1 322.1,228.2"/>
+  </g>
+  <g stroke="#1E293B" stroke-width="0.9" stroke-dasharray="10 3 2 3">
+    <line x1="110" y1="320" x2="530" y2="320"/><line x1="320" y1="190" x2="320" y2="450"/>
+    <line x1="135" y1="400" x2="185" y2="400"/><line x1="160" y1="375" x2="160" y2="425"/>
+    <line x1="455" y1="400" x2="505" y2="400"/><line x1="480" y1="375" x2="480" y2="425"/>
+    <line x1="135" y1="240" x2="185" y2="240"/><line x1="160" y1="215" x2="160" y2="265"/>
+    <line x1="455" y1="240" x2="505" y2="240"/><line x1="480" y1="215" x2="480" y2="265"/>
+    <line x1="300" y1="400" x2="340" y2="400"/><line x1="300" y1="240" x2="340" y2="240"/>
+  </g>
+
+  <g stroke="#1E293B" stroke-width="0.9" fill="none">
+    <!-- снизу -->
+    <line x1="120" y1="444" x2="120" y2="536"/><line x1="160" y1="420" x2="160" y2="476"/>
+    <line x1="320" y1="452" x2="320" y2="496"/><line x1="480" y1="420" x2="480" y2="516"/><line x1="520" y1="444" x2="520" y2="536"/>
+    <line x1="120" y1="470" x2="160" y2="470" marker-start="url(#d)" marker-end="url(#d)"/>
+    <line x1="120" y1="490" x2="320" y2="490" marker-start="url(#d)" marker-end="url(#d)"/>
+    <line x1="120" y1="510" x2="480" y2="510" marker-start="url(#d)" marker-end="url(#d)"/>
+    <line x1="120" y1="530" x2="520" y2="530" marker-start="url(#d)" marker-end="url(#d)"/>
+    <!-- слева -->
+    <line x1="116" y1="440" x2="48" y2="440"/><line x1="140" y1="400" x2="88" y2="400"/>
+    <line x1="140" y1="240" x2="68" y2="240"/><line x1="116" y1="200" x2="48" y2="200"/>
+    <line x1="95" y1="440" x2="95" y2="400" marker-start="url(#d)" marker-end="url(#d)"/>
+    <line x1="75" y1="440" x2="75" y2="240" marker-start="url(#d)" marker-end="url(#d)"/>
+    <line x1="55" y1="440" x2="55" y2="200" marker-start="url(#d)" marker-end="url(#d)"/>
+    <!-- толщина -->
+    <line x1="116" y1="100" x2="88" y2="100"/><line x1="116" y1="160" x2="88" y2="160"/>
+    <line x1="95" y1="100" x2="95" y2="160" marker-start="url(#d)" marker-end="url(#d)"/>
+    <!-- карман -->
+    <line x1="240" y1="298" x2="240" y2="262"/><line x1="400" y1="298" x2="400" y2="262"/>
+    <line x1="240" y1="268" x2="400" y2="268" marker-start="url(#d)" marker-end="url(#d)"/>
+    <line x1="258" y1="280" x2="226" y2="280"/><line x1="258" y1="360" x2="226" y2="360"/>
+    <line x1="232" y1="280" x2="232" y2="360" marker-start="url(#d)" marker-end="url(#d)"/>
+    <line x1="246" y1="286" x2="266" y2="302"/>
+    <!-- выноски -->
+    <polyline points="492,228 560,205 690,205"/>
+    <polyline points="329,232 360,185 500,185"/>
+    <polyline points="385,340 560,340 720,340"/>
+  </g>
+  <g font-size="13" fill="#1E293B">
+    <text x="140" y="466" text-anchor="middle">10</text><text x="220" y="486" text-anchor="middle">50</text>
+    <text x="300" y="506" text-anchor="middle">90</text><text x="420" y="526" text-anchor="middle">100</text>
+    <text x="90" y="420" text-anchor="middle" transform="rotate(-90 90 420)">10</text>
+    <text x="70" y="340" text-anchor="middle" transform="rotate(-90 70 340)">50</text>
+    <text x="50" y="320" text-anchor="middle" transform="rotate(-90 50 320)">60</text>
+    <text x="90" y="130" text-anchor="middle" transform="rotate(-90 90 130)">15</text>
+    <text x="360" y="264" text-anchor="middle">40</text>
+    <text x="227" y="320" text-anchor="middle" transform="rotate(-90 227 320)">20</text>
+    <text x="268" y="312">R5</text>
+    <text x="565" y="200">4 отв. Ø9</text>
+    <text x="364" y="180">2 отв. M6-7H↧12</text>
+    <text x="565" y="335">Карман глуб. 5</text>
+  </g>
+
+  <!-- ТТ -->
+  <text x="560" y="410" font-size="14" font-weight="700" fill="#1E293B">Технические требования</text>
+  <g font-size="13" fill="#1E293B">
+    <text x="560" y="436">1. Общие допуски по</text>
+    <text x="578" y="454">ГОСТ 30893.1-m.</text>
+    <text x="560" y="478">2. Острые кромки притупить.</text>
+    <text x="560" y="502">3. Покрытие: Ан.Окс.нхр.</text>
+  </g>
+  <!-- база -->
+  <text x="40" y="572" font-size="12" fill="#475569">Все размеры на виде сверху — от левой и нижней сторон.</text>
+  <text x="40" y="590" font-size="12" fill="#475569">Это базы: G54 удобно привязать в левый нижний угол.</text>
+  <!-- штамп -->
+  <g stroke="#1E293B" fill="none">
+    <rect x="540" y="525" width="300" height="95" stroke-width="2"/>
+    <line x1="540" y1="555" x2="840" y2="555" stroke-width="1.5"/>
+    <line x1="690" y1="555" x2="690" y2="620" stroke-width="1.5"/>
+    <line x1="540" y1="590" x2="690" y2="590" stroke-width="1.5"/>
+    <line x1="765" y1="555" x2="765" y2="620" stroke-width="1"/>
+  </g>
+  <text x="690" y="547" text-anchor="middle" font-size="16" font-weight="700" fill="#1E293B">ПЛ.002.00.01</text>
+  <text x="615" y="579" text-anchor="middle" font-size="18" font-weight="700" fill="#1E293B">Плита</text>
+  <text x="615" y="610" text-anchor="middle" font-size="11" fill="#1E293B">Д16Т ГОСТ 4784-2019</text>
+  <text x="727" y="570" text-anchor="middle" font-size="9" fill="#64748B">Масса</text>
+  <text x="727" y="595" text-anchor="middle" font-size="12" fill="#1E293B">0,23</text>
+  <text x="802" y="570" text-anchor="middle" font-size="9" fill="#64748B">Масштаб</text>
+  <text x="802" y="597" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">1:1</text>
+</svg>

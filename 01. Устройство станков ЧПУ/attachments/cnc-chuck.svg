@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 440" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#E53935"/></marker>
+  </defs>
+  <rect x="2" y="2" width="856" height="436" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Трёхкулачковый самоцентрирующий патрон</text>
+
+  <g transform="translate(220,240)">
+    <circle r="160" fill="#94A3B8" stroke="#334155" stroke-width="3"/>
+    <circle r="150" fill="none" stroke="#64748B" stroke-width="1.5"/>
+    <g id="jaw">
+      <rect x="-12" y="-150" width="24" height="110" fill="#CBD5E1" stroke="#64748B"/>
+      <rect x="-22" y="-120" width="44" height="58" rx="4" fill="#475569" stroke="#1E293B" stroke-width="2"/>
+      <rect x="-16" y="-62" width="32" height="14" fill="#334155"/>
+    </g>
+    <use href="#jaw" transform="rotate(120)"/>
+    <use href="#jaw" transform="rotate(240)"/>
+    <circle r="48" fill="#FDE68A" stroke="#B45309" stroke-width="2.5"/>
+    <circle r="6" fill="#B45309"/>
+    <line x1="0" y1="-125" x2="0" y2="-85" stroke="#E53935" stroke-width="3" marker-end="url(#ar)" transform="translate(40,0)"/>
+    <line x1="0" y1="-125" x2="0" y2="-85" stroke="#E53935" stroke-width="3" marker-end="url(#ar)" transform="rotate(120) translate(40,0)"/>
+    <line x1="0" y1="-125" x2="0" y2="-85" stroke="#E53935" stroke-width="3" marker-end="url(#ar)" transform="rotate(240) translate(40,0)"/>
+  </g>
+  <text x="220" y="425" text-anchor="middle" font-size="12" fill="#334155">вид с торца: в центре — заготовка</text>
+
+  <rect x="430" y="80" width="400" height="330" rx="12" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="450" y="110" font-size="16" font-weight="700" fill="#1E293B">Главное</text>
+  <text x="450" y="140" font-size="14" fill="#1E293B">• Три кулачка сдвигаются <tspan font-weight="700">одновременно</tspan>,</text>
+  <text x="464" y="160" font-size="14" fill="#1E293B">поэтому круглая деталь сама встаёт в центр.</text>
+  <text x="450" y="190" font-size="14" fill="#1E293B">• На ЧПУ патрон обычно <tspan font-weight="700">гидравлический</tspan>:</text>
+  <text x="464" y="210" font-size="14" fill="#1E293B">зажим педалью, давление настраивается.</text>
+  <text x="450" y="240" font-size="14" fill="#1E293B">• Кулачки бывают <tspan font-weight="700">закалённые</tspan> (твёрдые)</text>
+  <text x="464" y="260" font-size="14" fill="#1E293B">и <tspan font-weight="700">сырые</tspan> (мягкие) — их растачивают</text>
+  <text x="464" y="280" font-size="14" fill="#1E293B">под конкретную деталь для точности.</text>
+  <text x="450" y="310" font-size="14" fill="#1E293B">• Зажим бывает <tspan font-weight="700">наружный</tspan> (за внешний Ø)</text>
+  <text x="464" y="330" font-size="14" fill="#1E293B">и <tspan font-weight="700">внутренний</tspan> (кулачки разжимают</text>
+  <text x="464" y="350" font-size="14" fill="#1E293B">деталь изнутри, например кольцо).</text>
+  <text x="450" y="385" font-size="13" fill="#B91C1C">⚠ Мало давления — деталь вырвет. Много —</text>
+  <text x="464" y="402" font-size="13" fill="#B91C1C">тонкостенную деталь сомнёт в «треугольник».</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 450" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="d" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#1E63D6"/></marker>
+    <pattern id="tk" width="8" height="12" patternUnits="userSpaceOnUse"><line x1="0" y1="0.5" x2="6" y2="0.5" stroke="#1E293B" stroke-width="0.8"/></pattern>
+  </defs>
+  <rect x="2" y="2" width="856" height="446" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Штангенглубиномер и высотомер</text>
+
+  <!-- глубиномер -->
+  <rect x="25" y="58" width="400" height="380" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="45" y="84" font-size="14" font-weight="700" fill="#1E293B">Штангенглубиномер ШГ: глубина паза</text>
+  <path d="M70,230 L180,230 L180,320 L260,320 L260,230 L380,230 L380,390 L70,390 Z" fill="#FDE68A" stroke="#B45309" stroke-width="2"/>
+  <rect x="214" y="100" width="12" height="220" fill="#E2E8F0" stroke="#64748B"/>
+  <rect x="215" y="105" width="8" height="100" fill="url(#tk)"/>
+  <rect x="120" y="200" width="200" height="30" rx="3" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+  <rect x="200" y="206" width="40" height="18" fill="#FEF3C7" stroke="#B45309"/>
+  <line x1="275" y1="230" x2="275" y2="320" stroke="#1E63D6" stroke-width="1.5" marker-start="url(#d)" marker-end="url(#d)"/>
+  <text x="285" y="280" font-size="13" font-weight="700" fill="#1E63D6">глубина</text>
+  <text x="235" y="130" font-size="12" fill="#1E293B">← штанга со шкалой</text>
+  <text x="235" y="146" font-size="12" fill="#475569">упирается в дно</text>
+  <text x="45" y="190" font-size="12" fill="#1E293B">основание с нониусом ↘</text>
+  <text x="45" y="414" font-size="12" fill="#1E293B">Основание плотно прижать к верхней плоскости,</text>
+  <text x="45" y="430" font-size="12" fill="#1E293B">штангу опустить до упора в дно — без перекоса.</text>
+
+  <!-- высотомер -->
+  <rect x="435" y="58" width="400" height="380" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="455" y="84" font-size="14" font-weight="700" fill="#1E293B">Высотомер (штангенрейсмас) на плите</text>
+  <rect x="455" y="370" width="360" height="24" fill="#94A3B8" stroke="#475569"/>
+  <text x="635" y="387" text-anchor="middle" font-size="11" fill="#1E293B">поверочная плита — база измерения</text>
+  <rect x="480" y="345" width="100" height="25" rx="3" fill="#475569"/>
+  <rect x="520" y="100" width="20" height="245" fill="#E2E8F0" stroke="#64748B"/>
+  <rect x="521" y="110" width="12" height="230" fill="url(#tk)"/>
+  <rect x="508" y="220" width="64" height="40" rx="4" fill="#94A3B8" stroke="#475569" stroke-width="1.5"/>
+  <rect x="515" y="244" width="32" height="12" fill="#FEF3C7" stroke="#B45309"/>
+  <polygon points="572,234 690,238 690,244 572,248" fill="#CBD5E1" stroke="#475569"/>
+  <rect x="660" y="244" width="120" height="126" fill="#FDE68A" stroke="#B45309" stroke-width="2"/>
+  <line x1="800" y1="244" x2="800" y2="370" stroke="#1E63D6" stroke-width="1.5" marker-start="url(#d)" marker-end="url(#d)"/>
+  <text x="790" y="310" text-anchor="end" font-size="13" font-weight="700" fill="#1E63D6">высота</text>
+  <text x="580" y="215" font-size="12" fill="#1E293B">измерительная ножка</text>
+  <text x="580" y="200" font-size="12" fill="#475569">касается верха детали</text>
+  <text x="455" y="414" font-size="12" fill="#1E293B">Плита, основание и деталь — чистые. Цифровые</text>
+  <text x="455" y="430" font-size="12" fill="#1E293B">высотомеры обнуляют на плите или на уступе детали.</text>
+</svg>

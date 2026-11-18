@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" font-family="Segoe UI, Arial, sans-serif">
+<rect x="2" y="2" width="856" height="556" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="430.0" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Как читать нониус штангенциркуля</text>
+<rect x="25" y="58" width="810" height="235" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="45" y="84" font-size="15" font-weight="700" fill="#1E293B">Пример 1. Нониус с ценой деления 0,1 мм</text>
+<rect x="65" y="105" width="690" height="48" fill="#E2E8F0" stroke="#94A3B8"/>
+<line x1="80" y1="153" x2="80" y2="131" stroke="#1E293B" stroke-width="1.3"/>
+<text x="80" y="125" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">20</text>
+<line x1="110" y1="153" x2="110" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="140" y1="153" x2="140" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="170" y1="153" x2="170" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="200" y1="153" x2="200" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="230" y1="153" x2="230" y2="137" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="260" y1="153" x2="260" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="290" y1="153" x2="290" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="320" y1="153" x2="320" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="350" y1="153" x2="350" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="380" y1="153" x2="380" y2="131" stroke="#1E293B" stroke-width="1.3"/>
+<text x="380" y="125" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">30</text>
+<line x1="410" y1="153" x2="410" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="440" y1="153" x2="440" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="470" y1="153" x2="470" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="500" y1="153" x2="500" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="530" y1="153" x2="530" y2="137" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="560" y1="153" x2="560" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="590" y1="153" x2="590" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="620" y1="153" x2="620" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="650" y1="153" x2="650" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="680" y1="153" x2="680" y2="131" stroke="#1E293B" stroke-width="1.3"/>
+<text x="680" y="125" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">40</text>
+<line x1="710" y1="153" x2="710" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="740" y1="153" x2="740" y2="143" stroke="#1E293B" stroke-width="1.3"/>
+<rect x="170" y="153" width="294" height="44" fill="#FEF3C7" stroke="#B45309"/>
+<line x1="182" y1="153" x2="182" y2="171" stroke="#1E293B" stroke-width="1.3"/>
+<text x="182" y="186" text-anchor="middle" font-size="12" fill="#1E293B">0</text>
+<line x1="209" y1="153" x2="209" y2="164" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="236" y1="153" x2="236" y2="164" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="263" y1="153" x2="263" y2="164" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="290" y1="153" x2="290" y2="164" stroke="#DC2626" stroke-width="2.4"/>
+<line x1="317" y1="153" x2="317" y2="171" stroke="#1E293B" stroke-width="1.3"/>
+<text x="317" y="186" text-anchor="middle" font-size="12" fill="#1E293B">5</text>
+<line x1="344" y1="153" x2="344" y2="164" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="371" y1="153" x2="371" y2="164" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="398" y1="153" x2="398" y2="164" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="425" y1="153" x2="425" y2="164" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="452" y1="153" x2="452" y2="171" stroke="#1E293B" stroke-width="1.3"/>
+<text x="452" y="186" text-anchor="middle" font-size="12" fill="#1E293B">10</text>
+<circle cx="290" cy="153" r="9" fill="none" stroke="#DC2626" stroke-width="2"/>
+<line x1="182" y1="213" x2="182" y2="199" stroke="#1E63D6" stroke-width="2"/>
+<text x="182" y="229" text-anchor="middle" font-size="12" fill="#1E63D6">ноль нониуса</text>
+<text x="45" y="254" font-size="13" fill="#1E293B"><tspan font-weight="700">1)</tspan> Ноль нониуса прошёл риску <tspan font-weight="700">23</tspan> мм штанги → целые: <tspan font-weight="700">23 мм</tspan>.   <tspan font-weight="700">2)</tspan> С риской штанги совпала <tspan font-weight="700" fill="#DC2626">4-я</tspan> риска нониуса → <tspan font-weight="700">0,4 мм</tspan>.</text>
+<text x="45" y="273" font-size="13" fill="#1E293B"><tspan font-weight="700">Ответ: 23 + 0,4 = 23,4 мм</tspan></text>
+<rect x="25" y="305" width="810" height="235" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="45" y="331" font-size="15" font-weight="700" fill="#1E293B">Пример 2. Нониус с ценой деления 0,05 мм</text>
+<rect x="65" y="352" width="690" height="48" fill="#E2E8F0" stroke="#94A3B8"/>
+<line x1="80" y1="400" x2="80" y2="378" stroke="#1E293B" stroke-width="1.3"/>
+<text x="80" y="372" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">10</text>
+<line x1="95" y1="400" x2="95" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="110" y1="400" x2="110" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="125" y1="400" x2="125" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="140" y1="400" x2="140" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="155" y1="400" x2="155" y2="384" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="170" y1="400" x2="170" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="185" y1="400" x2="185" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="200" y1="400" x2="200" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="215" y1="400" x2="215" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="230" y1="400" x2="230" y2="378" stroke="#1E293B" stroke-width="1.3"/>
+<text x="230" y="372" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">20</text>
+<line x1="245" y1="400" x2="245" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="260" y1="400" x2="260" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="275" y1="400" x2="275" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="290" y1="400" x2="290" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="305" y1="400" x2="305" y2="384" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="320" y1="400" x2="320" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="335" y1="400" x2="335" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="350" y1="400" x2="350" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="365" y1="400" x2="365" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="380" y1="400" x2="380" y2="378" stroke="#1E293B" stroke-width="1.3"/>
+<text x="380" y="372" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">30</text>
+<line x1="395" y1="400" x2="395" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="410" y1="400" x2="410" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="425" y1="400" x2="425" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="440" y1="400" x2="440" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="455" y1="400" x2="455" y2="384" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="470" y1="400" x2="470" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="485" y1="400" x2="485" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="500" y1="400" x2="500" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="515" y1="400" x2="515" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="530" y1="400" x2="530" y2="378" stroke="#1E293B" stroke-width="1.3"/>
+<text x="530" y="372" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">40</text>
+<line x1="545" y1="400" x2="545" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="560" y1="400" x2="560" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="575" y1="400" x2="575" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="590" y1="400" x2="590" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="605" y1="400" x2="605" y2="384" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="620" y1="400" x2="620" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="635" y1="400" x2="635" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="650" y1="400" x2="650" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="665" y1="400" x2="665" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="680" y1="400" x2="680" y2="378" stroke="#1E293B" stroke-width="1.3"/>
+<text x="680" y="372" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">50</text>
+<line x1="695" y1="400" x2="695" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="710" y1="400" x2="710" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="725" y1="400" x2="725" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="740" y1="400" x2="740" y2="390" stroke="#1E293B" stroke-width="1.3"/>
+<rect x="103.25" y="400" width="609" height="44" fill="#FEF3C7" stroke="#B45309"/>
+<line x1="115.25" y1="400" x2="115.25" y2="418" stroke="#1E293B" stroke-width="1.3"/>
+<text x="115.25" y="433" text-anchor="middle" font-size="12" fill="#1E293B">0</text>
+<line x1="144.5" y1="400" x2="144.5" y2="411" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="173.75" y1="400" x2="173.75" y2="418" stroke="#1E293B" stroke-width="1.3"/>
+<text x="173.75" y="433" text-anchor="middle" font-size="12" fill="#1E293B">1</text>
+<line x1="203" y1="400" x2="203" y2="411" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="232.25" y1="400" x2="232.25" y2="418" stroke="#1E293B" stroke-width="1.3"/>
+<text x="232.25" y="433" text-anchor="middle" font-size="12" fill="#1E293B">2</text>
+<line x1="261.5" y1="400" x2="261.5" y2="411" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="290.75" y1="400" x2="290.75" y2="418" stroke="#1E293B" stroke-width="1.3"/>
+<text x="290.75" y="433" text-anchor="middle" font-size="12" fill="#1E293B">3</text>
+<line x1="320" y1="400" x2="320" y2="411" stroke="#DC2626" stroke-width="2.4"/>
+<line x1="349.25" y1="400" x2="349.25" y2="418" stroke="#1E293B" stroke-width="1.3"/>
+<text x="349.25" y="433" text-anchor="middle" font-size="12" fill="#1E293B">4</text>
+<line x1="378.5" y1="400" x2="378.5" y2="411" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="407.75" y1="400" x2="407.75" y2="418" stroke="#1E293B" stroke-width="1.3"/>
+<text x="407.75" y="433" text-anchor="middle" font-size="12" fill="#1E293B">5</text>
+<line x1="437" y1="400" x2="437" y2="411" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="466.25" y1="400" x2="466.25" y2="418" stroke="#1E293B" stroke-width="1.3"/>
+<text x="466.25" y="433" text-anchor="middle" font-size="12" fill="#1E293B">6</text>
+<line x1="495.5" y1="400" x2="495.5" y2="411" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="524.75" y1="400" x2="524.75" y2="418" stroke="#1E293B" stroke-width="1.3"/>
+<text x="524.75" y="433" text-anchor="middle" font-size="12" fill="#1E293B">7</text>
+<line x1="554" y1="400" x2="554" y2="411" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="583.25" y1="400" x2="583.25" y2="418" stroke="#1E293B" stroke-width="1.3"/>
+<text x="583.25" y="433" text-anchor="middle" font-size="12" fill="#1E293B">8</text>
+<line x1="612.5" y1="400" x2="612.5" y2="411" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="641.75" y1="400" x2="641.75" y2="418" stroke="#1E293B" stroke-width="1.3"/>
+<text x="641.75" y="433" text-anchor="middle" font-size="12" fill="#1E293B">9</text>
+<line x1="671" y1="400" x2="671" y2="411" stroke="#1E293B" stroke-width="1.3"/>
+<line x1="700.25" y1="400" x2="700.25" y2="418" stroke="#1E293B" stroke-width="1.3"/>
+<text x="700.25" y="433" text-anchor="middle" font-size="12" fill="#1E293B">10</text>
+<circle cx="320" cy="400" r="9" fill="none" stroke="#DC2626" stroke-width="2"/>
+<line x1="115.25" y1="460" x2="115.25" y2="446" stroke="#1E63D6" stroke-width="2"/>
+<text x="115.25" y="476" text-anchor="middle" font-size="12" fill="#1E63D6">ноль нониуса</text>
+<text x="45" y="501" font-size="13" fill="#1E293B"><tspan font-weight="700">1)</tspan> Ноль нониуса прошёл <tspan font-weight="700">12</tspan> мм.   <tspan font-weight="700">2)</tspan> Совпала <tspan font-weight="700" fill="#DC2626">7-я</tspan> риска нониуса (между цифрами 3 и 4) → 7 × 0,05 = <tspan font-weight="700">0,35 мм</tspan>.</text>
+<text x="45" y="520" font-size="13" fill="#1E293B"><tspan font-weight="700">Ответ: 12 + 0,35 = 12,35 мм</tspan>   (цифры нониуса здесь — десятые доли мм: «3» = 0,30, «4» = 0,40)</text>
+</svg>

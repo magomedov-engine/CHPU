@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <clipPath id="body"><rect x="200" y="140" width="280" height="60"/></clipPath>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker>
+  </defs>
+  <rect x="2" y="2" width="856" height="466" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Спиральное сверло и метчики</text>
+
+  <!-- сверло -->
+  <rect x="25" y="58" width="530" height="400" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="45" y="84" font-size="14" font-weight="700" fill="#1E293B">Спиральное сверло</text>
+  <rect x="60" y="148" width="140" height="44" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+  <rect x="200" y="140" width="280" height="60" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+  <g clip-path="url(#body)" fill="#94A3B8" opacity="0.9">
+    <polygon points="190,200 230,200 290,140 250,140"/><polygon points="270,200 310,200 370,140 330,140"/><polygon points="350,200 390,200 450,140 410,140"/><polygon points="430,200 470,200 530,140 490,140"/>
+  </g>
+  <polygon points="480,140 498,170 480,200" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+  <line x1="480" y1="140" x2="498" y2="170" stroke="#DC2626" stroke-width="3"/>
+  <line x1="480" y1="200" x2="498" y2="170" stroke="#DC2626" stroke-width="3"/>
+  <g font-size="12" fill="#1E293B">
+    <line x1="130" y1="148" x2="130" y2="118" stroke="#64748B"/><text x="90" y="112">хвостовик</text>
+    <line x1="310" y1="140" x2="310" y2="112" stroke="#64748B"/><text x="250" y="106">канавки — отвод стружки</text>
+    <line x1="420" y1="200" x2="420" y2="230" stroke="#64748B"/><text x="340" y="245">ленточки — направляют сверло</text>
+    <line x1="494" y1="160" x2="500" y2="118" stroke="#DC2626"/><text x="430" y="112" fill="#DC2626">режущие кромки</text>
+  </g>
+  <!-- углы -->
+  <rect x="60" y="280" width="60" height="80" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/><polygon points="120,280 144,320 120,360" fill="#E2E8F0" stroke="#DC2626" stroke-width="2"/>
+  <text x="100" y="378" text-anchor="middle" font-size="14" font-weight="700" fill="#1E63D6">118°</text>
+  <text x="100" y="396" text-anchor="middle" font-size="11" fill="#475569">быстрорез (HSS)</text>
+  <rect x="215" y="280" width="60" height="80" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/><polygon points="275,280 289.6,320 275,360" fill="#E2E8F0" stroke="#DC2626" stroke-width="2"/>
+  <text x="250" y="378" text-anchor="middle" font-size="14" font-weight="700" fill="#1E63D6">140°</text>
+  <text x="250" y="396" text-anchor="middle" font-size="11" fill="#475569">твёрдый сплав</text>
+  <rect x="370" y="280" width="60" height="80" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/><polygon points="430,280 470,320 430,360" fill="#E2E8F0" stroke="#DC2626" stroke-width="2"/>
+  <text x="415" y="378" text-anchor="middle" font-size="14" font-weight="700" fill="#1E63D6">90°</text>
+  <text x="415" y="396" text-anchor="middle" font-size="11" fill="#475569">центровка (под фаску)</text>
+  <text x="45" y="428" font-size="12" fill="#1E293B">Сверло «уводит» на неровной поверхности → сначала центровка.</text>
+  <text x="45" y="446" font-size="12" fill="#1E293B">Глубина больше 3–5 диаметров → цикл с выводом (G83) или сверло с СОЖ через канал.</text>
+
+  <!-- метчики -->
+  <rect x="565" y="58" width="270" height="400" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="580" y="84" font-size="14" font-weight="700" fill="#1E293B">Метчики</text>
+  <g fill="#CBD5E1" stroke="#475569" stroke-width="1.5">
+    <rect x="603" y="100" width="22" height="80"/><rect x="688" y="100" width="22" height="80"/><rect x="773" y="100" width="22" height="80"/>
+  </g>
+  <g fill="#E2E8F0" stroke="#475569" stroke-width="1.5">
+    <path d="M598,180 L630,180 L630,270 L622,290 L606,290 L598,270 Z"/>
+    <path d="M683,180 L715,180 L715,270 L707,290 L691,290 L683,270 Z"/>
+    <path d="M768,180 L800,180 L800,270 L792,290 L776,290 L768,270 Z"/>
+  </g>
+  <g stroke="#475569" stroke-width="1"><line x1="598" y1="190" x2="630" y2="190"/><line x1="598" y1="200" x2="630" y2="200"/><line x1="598" y1="210" x2="630" y2="210"/><line x1="598" y1="220" x2="630" y2="220"/><line x1="598" y1="230" x2="630" y2="230"/><line x1="598" y1="240" x2="630" y2="240"/><line x1="598" y1="250" x2="630" y2="250"/><line x1="598" y1="260" x2="630" y2="260"/></g>
+  <line x1="614" y1="182" x2="614" y2="252" stroke="#334155" stroke-width="3"/>
+  <line x1="614" y1="252" x2="620" y2="288" stroke="#334155" stroke-width="3"/>
+  <g stroke="#475569" stroke-width="1"><line x1="683" y1="190" x2="715" y2="190"/><line x1="683" y1="200" x2="715" y2="200"/><line x1="683" y1="210" x2="715" y2="210"/><line x1="683" y1="220" x2="715" y2="220"/><line x1="683" y1="230" x2="715" y2="230"/><line x1="683" y1="240" x2="715" y2="240"/><line x1="683" y1="250" x2="715" y2="250"/><line x1="683" y1="260" x2="715" y2="260"/></g>
+  <path d="M686,185 C710,205 690,225 712,245 C700,260 700,275 705,288" fill="none" stroke="#334155" stroke-width="3"/>
+  <g stroke="#475569" stroke-width="1"><line x1="768" y1="190" x2="800" y2="190"/><line x1="768" y1="200" x2="800" y2="200"/><line x1="768" y1="210" x2="800" y2="210"/><line x1="768" y1="220" x2="800" y2="220"/><line x1="768" y1="230" x2="800" y2="230"/><line x1="768" y1="240" x2="800" y2="240"/><line x1="768" y1="250" x2="800" y2="250"/><line x1="768" y1="260" x2="800" y2="260"/></g>
+  <line x1="614" y1="300" x2="614" y2="330" stroke="#DC2626" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="699" y1="330" x2="699" y2="300" stroke="#DC2626" stroke-width="2.5" marker-end="url(#ar)"/>
+  <g text-anchor="middle" font-size="10">
+    <text x="614" y="350" font-size="11" font-weight="700" fill="#1E293B">С подточкой</text><text x="614" y="366" fill="#475569">сквозные:</text><text x="614" y="381" fill="#475569">стружка вперёд</text>
+    <text x="699" y="350" font-size="11" font-weight="700" fill="#1E293B">Спиральный</text><text x="699" y="366" fill="#475569">глухие:</text><text x="699" y="381" fill="#475569">стружка назад</text>
+    <text x="784" y="350" font-size="11" font-weight="700" fill="#1E293B">Раскатник</text><text x="784" y="366" fill="#475569">без стружки,</text><text x="784" y="381" fill="#475569">отверстие больше</text>
+  </g>
+  <text x="580" y="420" font-size="11" fill="#475569">Метчик для глухого отверстия в сквозном —</text>
+  <text x="580" y="436" font-size="11" fill="#475569">работает; для сквозного в глухом — забьёт</text>
+  <text x="580" y="452" font-size="11" fill="#475569">дно стружкой и сломается.</text>
+</svg>

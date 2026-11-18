@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="2" y="2" width="856" height="576" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Типы линий чертежа (ГОСТ 2.303)</text>
+  <text x="430" y="60" text-anchor="middle" font-size="13" fill="#475569">S — толщина основной линии, обычно 0,5–1,4 мм. Тонкие линии — в 2–3 раза тоньше.</text>
+
+  <g fill="#1E293B">
+    <!-- 1 -->
+    <line x1="40" y1="100" x2="260" y2="100" stroke="#1E293B" stroke-width="3.5"/>
+    <text x="290" y="96" font-size="15" font-weight="700">1. Сплошная толстая основная</text>
+    <text x="290" y="114" font-size="13" fill="#475569">Видимый контур детали — то, что мы видим</text>
+    <!-- 2 -->
+    <line x1="40" y1="152" x2="260" y2="152" stroke="#1E293B" stroke-width="1.2"/>
+    <text x="290" y="148" font-size="15" font-weight="700">2. Сплошная тонкая</text>
+    <text x="290" y="166" font-size="13" fill="#475569">Размерные и выносные линии, штриховка, линии-выноски, контур наложенного сечения</text>
+    <!-- 3 -->
+    <path d="M40,204 C55,192 70,216 85,204 S115,192 130,204 S160,216 175,204 S205,192 220,204 S250,216 260,204" fill="none" stroke="#1E293B" stroke-width="1.2"/>
+    <text x="290" y="200" font-size="15" font-weight="700">3. Сплошная волнистая</text>
+    <text x="290" y="218" font-size="13" fill="#475569">Линия обрыва; граница между видом и разрезом</text>
+    <!-- 4 -->
+    <line x1="40" y1="256" x2="260" y2="256" stroke="#1E293B" stroke-width="1.8" stroke-dasharray="10 5"/>
+    <text x="290" y="252" font-size="15" font-weight="700">4. Штриховая</text>
+    <text x="290" y="270" font-size="13" fill="#475569">Невидимый контур — то, что скрыто внутри детали (отверстия, пазы)</text>
+    <!-- 5 -->
+    <line x1="40" y1="308" x2="260" y2="308" stroke="#1E293B" stroke-width="1.2" stroke-dasharray="22 4 3 4"/>
+    <text x="290" y="304" font-size="15" font-weight="700">5. Штрихпунктирная тонкая</text>
+    <text x="290" y="322" font-size="13" fill="#475569">Осевые и центровые линии — ось вала, центр отверстия</text>
+    <!-- 6 -->
+    <line x1="40" y1="360" x2="260" y2="360" stroke="#1E293B" stroke-width="2.4" stroke-dasharray="16 4 3 4"/>
+    <text x="290" y="356" font-size="15" font-weight="700">6. Штрихпунктирная утолщённая</text>
+    <text x="290" y="374" font-size="13" fill="#475569">Поверхности, которые подлежат термообработке или покрытию</text>
+    <!-- 7 -->
+    <line x1="40" y1="412" x2="80" y2="412" stroke="#1E293B" stroke-width="4"/>
+    <line x1="220" y1="412" x2="260" y2="412" stroke="#1E293B" stroke-width="4"/>
+    <text x="290" y="408" font-size="15" font-weight="700">7. Разомкнутая</text>
+    <text x="290" y="426" font-size="13" fill="#475569">Положение секущей плоскости для разреза или сечения</text>
+    <!-- 8 -->
+    <path d="M40,464 L135,464 L142,450 L152,478 L159,464 L260,464" fill="none" stroke="#1E293B" stroke-width="1.2"/>
+    <text x="290" y="460" font-size="15" font-weight="700">8. Сплошная тонкая с изломами</text>
+    <text x="290" y="478" font-size="13" fill="#475569">Длинные линии обрыва</text>
+    <!-- 9 -->
+    <line x1="40" y1="516" x2="260" y2="516" stroke="#1E293B" stroke-width="1.2" stroke-dasharray="20 4 3 4 3 4"/>
+    <text x="290" y="512" font-size="15" font-weight="700">9. Штрихпунктирная с двумя точками</text>
+    <text x="290" y="530" font-size="13" fill="#475569">Линии сгиба на развёртках; крайние положения подвижных частей</text>
+  </g>
+  <rect x="40" y="545" width="780" height="24" rx="6" fill="#FEF3C7"/>
+  <text x="430" y="562" text-anchor="middle" font-size="13" fill="#92400E">Для оператора важнее всего первые пять: контур, размеры, обрыв, скрытое, оси.</text>
+</svg>

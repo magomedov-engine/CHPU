@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="2" y="2" width="856" height="396" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Группы обрабатываемых материалов ISO — цвет на коробке пластин</text>
+  <g font-size="12" fill="#1E293B">
+    <!-- P -->
+    <rect x="25" y="58" width="263" height="160" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="25" y="58" width="263" height="44" rx="10" fill="#1D4ED8"/><rect x="25" y="90" width="263" height="12" fill="#1D4ED8"/>
+    <text x="45" y="90" font-size="26" font-weight="700" fill="#FFFFFF">P</text><text x="78" y="88" font-size="16" font-weight="700" fill="#FFFFFF">Сталь</text>
+    <text x="40" y="126">Ст3, 20, 45, 40Х, 30ХГСА,</text><text x="40" y="143">инструментальные стали</text>
+    <text x="40" y="170" fill="#475569">Длинная сливная стружка —</text><text x="40" y="187" fill="#475569">нужен стружколом. Самая большая</text><text x="40" y="204" fill="#475569">группа работ в цеху</text>
+    <!-- M -->
+    <rect x="298" y="58" width="263" height="160" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="298" y="58" width="263" height="44" rx="10" fill="#EAB308"/><rect x="298" y="90" width="263" height="12" fill="#EAB308"/>
+    <text x="318" y="90" font-size="26" font-weight="700" fill="#FFFFFF">M</text><text x="356" y="88" font-size="16" font-weight="700" fill="#FFFFFF">Нержавеющая сталь</text>
+    <text x="313" y="126">12Х18Н10Т, 08Х18Н10,</text><text x="313" y="143">AISI 304, 316, 321</text>
+    <text x="313" y="170" fill="#475569">Вязкая, наклёпывается,</text><text x="313" y="187" fill="#475569">налипает. Острая кромка,</text><text x="313" y="204" fill="#475569">не «тереть», обильная СОЖ</text>
+    <!-- K -->
+    <rect x="571" y="58" width="263" height="160" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="571" y="58" width="263" height="44" rx="10" fill="#DC2626"/><rect x="571" y="90" width="263" height="12" fill="#DC2626"/>
+    <text x="591" y="90" font-size="26" font-weight="700" fill="#FFFFFF">K</text><text x="625" y="88" font-size="16" font-weight="700" fill="#FFFFFF">Чугун</text>
+    <text x="586" y="126">СЧ20, СЧ25 (серый),</text><text x="586" y="143">ВЧ50 (высокопрочный)</text>
+    <text x="586" y="170" fill="#475569">Короткая стружка-крошка,</text><text x="586" y="187" fill="#475569">абразивный износ, пыль.</text><text x="586" y="204" fill="#475569">Часто — без СОЖ</text>
+    <!-- N -->
+    <rect x="25" y="228" width="263" height="160" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="25" y="228" width="263" height="44" rx="10" fill="#16A34A"/><rect x="25" y="260" width="263" height="12" fill="#16A34A"/>
+    <text x="45" y="260" font-size="26" font-weight="700" fill="#FFFFFF">N</text><text x="78" y="258" font-size="16" font-weight="700" fill="#FFFFFF">Цветные металлы</text>
+    <text x="40" y="296">Алюминий (Д16Т, АМг6, В95),</text><text x="40" y="313">медь, латунь, бронза, пластики</text>
+    <text x="40" y="340" fill="#475569">Высокие скорости, налипание.</text><text x="40" y="357" fill="#475569">Острые полированные кромки,</text><text x="40" y="374" fill="#475569">большие передние углы</text>
+    <!-- S -->
+    <rect x="298" y="228" width="263" height="160" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="298" y="228" width="263" height="44" rx="10" fill="#EA580C"/><rect x="298" y="260" width="263" height="12" fill="#EA580C"/>
+    <text x="318" y="260" font-size="26" font-weight="700" fill="#FFFFFF">S</text><text x="350" y="258" font-size="16" font-weight="700" fill="#FFFFFF">Жаропрочные и титан</text>
+    <text x="313" y="296">Титан ВТ1-0, ВТ6, сплавы</text><text x="313" y="313">на никеле (Inconel, ЭИ698)</text>
+    <text x="313" y="340" fill="#475569">Сильный нагрев, наклёп,</text><text x="313" y="357" fill="#475569">низкие скорости резания,</text><text x="313" y="374" fill="#475569">быстрый износ</text>
+    <!-- H -->
+    <rect x="571" y="228" width="263" height="160" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="571" y="228" width="263" height="44" rx="10" fill="#6B7280"/><rect x="571" y="260" width="263" height="12" fill="#6B7280"/>
+    <text x="591" y="260" font-size="26" font-weight="700" fill="#FFFFFF">H</text><text x="625" y="258" font-size="16" font-weight="700" fill="#FFFFFF">Закалённые</text>
+    <text x="586" y="296">Стали 45–65 HRC,</text><text x="586" y="313">отбелённый чугун</text>
+    <text x="586" y="340" fill="#475569">Обработка «по закалке»:</text><text x="586" y="357" fill="#475569">CBN (кубический нитрид бора),</text><text x="586" y="374" fill="#475569">керамика, шлифование</text>
+  </g>
+</svg>

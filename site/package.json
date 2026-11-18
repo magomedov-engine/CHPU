@@ -1,0 +1,43 @@
+{
+  "name": "chpu-academy",
+  "private": true,
+  "type": "module",
+  "description": "Учебный сайт для подготовки к собеседованию оператора станков с ЧПУ",
+  "scripts": {
+    "content": "node scripts/build-content.mjs",
+    "content:watch": "node scripts/build-content.mjs --watch",
+    "icons": "pwa-assets-generator",
+    "dev": "npm run content && nuxt dev",
+    "build": "npm run content && nuxt build",
+    "generate": "npm run content && nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^0.10.0",
+    "@pinia/nuxt": "^1.0.3",
+    "@vueuse/core": "^15.0.0",
+    "@vueuse/nuxt": "^15.0.0",
+    "canvas-confetti": "^1.9.4",
+    "fuse.js": "^7.5.0",
+    "lucide-vue-next": "^1.0.0",
+    "mermaid": "^12.2.0",
+    "nuxt": "^4.6.3",
+    "pinia": "^4.1.0",
+    "vue": "^3.5.44",
+    "vue-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "@nuxt/fonts": "^1.2.0",
+    "@nuxtjs/seo": "^6.0.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/markdown-it": "^14.2.0",
+    "@vite-pwa/assets-generator": "^1.0.4",
+    "@vite-pwa/nuxt": "^1.1.1",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^15.0.3",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3"
+  }
+}

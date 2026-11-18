@@ -1,0 +1,29 @@
+# Nuxt
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Сгенерированный контент (собирается из заметок командой npm run content)
+app/generated
+public/content
+
+# Зависимости и логи
+node_modules
+logs
+*.log
+
+# Окружение
+.env
+.env.*
+!.env.example
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# Obsidian — личные настройки рабочего пространства
+.obsidian/workspace*.json
+.obsidian/cache

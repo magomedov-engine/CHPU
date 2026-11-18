@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 430" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <pattern id="h" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="9" height="9" fill="#FFFFFF"/><line x1="0" y1="0" x2="0" y2="9" stroke="#1E293B" stroke-width="1.1"/>
+    </pattern>
+    <marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1E293B"/></marker>
+  </defs>
+  <rect x="2" y="2" width="856" height="426" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Сечение и разрез — в чём разница</text>
+
+  <!-- панель 1: вал -->
+  <rect x="25" y="65" width="400" height="275" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="225" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">Вал со шпоночным пазом</text>
+  <line x1="55" y1="210" x2="395" y2="210" stroke="#1E293B" stroke-width="0.9" stroke-dasharray="14 3 2 3"/>
+  <path d="M70,170 L140,170 L140,182 L260,182 L260,170 L380,170 L380,250 L70,250 Z" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.5"/>
+  <!-- секущая плоскость -->
+  <line x1="200" y1="132" x2="200" y2="152" stroke="#1E293B" stroke-width="4"/>
+  <line x1="200" y1="268" x2="200" y2="288" stroke="#1E293B" stroke-width="4"/>
+  <line x1="200" y1="137" x2="172" y2="137" stroke="#1E293B" stroke-width="1.5" marker-end="url(#ak)"/>
+  <line x1="200" y1="283" x2="172" y2="283" stroke="#1E293B" stroke-width="1.5" marker-end="url(#ak)"/>
+  <text x="160" y="128" font-size="16" font-weight="700" fill="#1E293B">А</text>
+  <text x="160" y="306" font-size="16" font-weight="700" fill="#1E293B">А</text>
+  <text x="212" y="128" font-size="11" fill="#475569">разомкнутая линия — где «режем»,</text>
+  <text x="212" y="142" font-size="11" fill="#475569">стрелки — куда смотрим</text>
+  <text x="225" y="328" text-anchor="middle" font-size="12" fill="#475569">Глубину паза на этом виде видно плохо → нужно сечение</text>
+
+  <!-- панель 2: сечение -->
+  <rect x="440" y="65" width="190" height="275" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="535" y="90" text-anchor="middle" font-size="16" font-weight="700" fill="#1E293B">А–А</text>
+  <path d="M523,171.84 A40 40 0 1 0 547,171.84 L547,182 L523,182 Z" fill="url(#h)" stroke="#1E293B" stroke-width="2.5"/>
+  <g stroke="#1E293B" stroke-width="0.9" stroke-dasharray="10 3 2 3"><line x1="485" y1="210" x2="585" y2="210"/><line x1="535" y1="160" x2="535" y2="262"/></g>
+  <text x="535" y="290" text-anchor="middle" font-size="14" font-weight="700" fill="#1E63D6">СЕЧЕНИЕ</text>
+  <text x="535" y="308" text-anchor="middle" font-size="11" fill="#475569">только то, что лежит</text>
+  <text x="535" y="322" text-anchor="middle" font-size="11" fill="#475569">в секущей плоскости</text>
+
+  <!-- панель 3: разрез втулки -->
+  <rect x="645" y="65" width="190" height="275" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="740" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">Втулка в разрезе</text>
+  <g stroke="#1E293B" stroke-width="2.5">
+    <path d="M665,160 L815,160 L815,182 L750,182 L750,176 L730,176 L730,182 L665,182 Z" fill="url(#h)"/>
+    <path d="M665,260 L815,260 L815,238 L750,238 L750,244 L730,244 L730,238 L665,238 Z" fill="url(#h)"/>
+    <line x1="730" y1="182" x2="730" y2="238"/>
+    <line x1="750" y1="182" x2="750" y2="238"/>
+  </g>
+  <line x1="655" y1="210" x2="825" y2="210" stroke="#1E293B" stroke-width="0.9" stroke-dasharray="14 3 2 3"/>
+  <text x="740" y="290" text-anchor="middle" font-size="14" font-weight="700" fill="#B45309">РАЗРЕЗ</text>
+  <text x="740" y="308" text-anchor="middle" font-size="11" fill="#475569">то, что в плоскости, +</text>
+  <text x="740" y="322" text-anchor="middle" font-size="11" fill="#475569">всё, что видно за ней</text>
+
+  <rect x="25" y="352" width="810" height="64" rx="10" fill="#FEF3C7"/>
+  <text x="45" y="376" font-size="13" fill="#92400E"><tspan font-weight="700">Штриховка</tspan> под 45° = здесь сплошной материал, который «разрезали». Белое внутри = пустота (отверстие, паз).</text>
+  <text x="45" y="400" font-size="13" fill="#92400E">Во втулке за плоскостью видны края внутренней канавки — поэтому это разрез: две вертикальные линии без штриховки.</text>
+</svg>

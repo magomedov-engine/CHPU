@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 520" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E53935"/></marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1E63D6"/></marker>
+  </defs>
+  <rect x="2" y="2" width="856" height="516" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Токарный станок с ЧПУ — вид сверху и оси</text>
+
+  <!-- станина -->
+  <rect x="40" y="400" width="780" height="34" rx="6" fill="#94A3B8" stroke="#475569" stroke-width="2"/>
+  <text x="430" y="423" text-anchor="middle" font-size="14" fill="#1E293B">Станина с направляющими</text>
+  <!-- передняя бабка -->
+  <rect x="50" y="110" width="150" height="230" rx="8" fill="#64748B" stroke="#334155" stroke-width="2"/>
+  <text x="125" y="220" text-anchor="middle" font-size="14" fill="#F8FAFC">Передняя</text>
+  <text x="125" y="238" text-anchor="middle" font-size="14" fill="#F8FAFC">бабка</text>
+  <text x="125" y="258" text-anchor="middle" font-size="11" fill="#E2E8F0">(внутри шпиндель)</text>
+  <!-- патрон -->
+  <rect x="200" y="150" width="40" height="150" rx="4" fill="#475569" stroke="#1E293B" stroke-width="2"/>
+  <rect x="240" y="180" width="18" height="22" fill="#334155"/>
+  <rect x="240" y="248" width="18" height="22" fill="#334155"/>
+  <!-- заготовка -->
+  <rect x="240" y="202" width="330" height="46" fill="#FDE68A" stroke="#B45309" stroke-width="2"/>
+  <!-- ось шпинделя -->
+  <line x1="40" y1="225" x2="820" y2="225" stroke="#1E293B" stroke-width="1.5" stroke-dasharray="14 5 3 5"/>
+  <!-- задняя бабка -->
+  <polygon points="570,225 600,212 600,238" fill="#475569"/>
+  <rect x="600" y="208" width="80" height="34" fill="#94A3B8" stroke="#475569" stroke-width="2"/>
+  <rect x="680" y="160" width="130" height="130" rx="8" fill="#64748B" stroke="#334155" stroke-width="2"/>
+  <text x="745" y="222" text-anchor="middle" font-size="14" fill="#F8FAFC">Задняя</text>
+  <text x="745" y="240" text-anchor="middle" font-size="14" fill="#F8FAFC">бабка</text>
+  <!-- суппорт / револьвер -->
+  <rect x="380" y="300" width="130" height="70" rx="8" fill="#475569" stroke="#1E293B" stroke-width="2"/>
+  <text x="445" y="332" text-anchor="middle" font-size="13" fill="#F8FAFC">Револьверная</text>
+  <text x="445" y="350" text-anchor="middle" font-size="13" fill="#F8FAFC">головка</text>
+  <rect x="425" y="268" width="22" height="32" fill="#9CA3AF" stroke="#4B5563"/>
+  <polygon points="426,268 446,268 436,250" fill="#F59E0B" stroke="#B45309" stroke-width="1.5"/>
+
+  <!-- Z -->
+  <line x1="300" y1="85" x2="560" y2="85" stroke="#1E63D6" stroke-width="4" marker-start="url(#ab)" marker-end="url(#ab)"/>
+  <text x="430" y="75" text-anchor="middle" font-size="22" font-weight="700" fill="#1E63D6">Z</text>
+  <text x="290" y="72" text-anchor="end" font-size="13" fill="#1E63D6">Z− к патрону</text>
+  <text x="570" y="72" font-size="13" fill="#1E63D6">Z+ от патрона</text>
+  <text x="430" y="105" text-anchor="middle" font-size="12" fill="#1E63D6">вдоль оси вращения детали</text>
+  <!-- X -->
+  <line x1="560" y1="250" x2="560" y2="380" stroke="#E53935" stroke-width="4" marker-start="url(#ar)" marker-end="url(#ar)"/>
+  <text x="578" y="320" font-size="22" font-weight="700" fill="#E53935">X</text>
+  <text x="578" y="342" font-size="12" fill="#E53935">поперёк оси:</text>
+  <text x="578" y="357" font-size="12" fill="#E53935">X+ — от центра,</text>
+  <text x="578" y="372" font-size="12" fill="#E53935">X задают диаметром</text>
+
+  <!-- вращение -->
+  <path d="M 285 195 A 18 32 0 1 1 285 255" fill="none" stroke="#7C3AED" stroke-width="3"/>
+  <polygon points="279,252 292,258 283,265" fill="#7C3AED"/>
+  <text x="50" y="362" font-size="12" fill="#7C3AED">вращается деталь (шпиндель)</text>
+  <text x="50" y="378" font-size="12" fill="#7C3AED">инструмент — неподвижен</text>
+
+  <text x="60" y="475" font-size="13" fill="#334155">Нуль детали (W) на токарном обычно ставят на торец детали, на оси вращения: X0 — центр, Z0 — торец.</text>
+  <text x="60" y="497" font-size="13" fill="#334155">Ось Z всегда совпадает с осью шпинделя — так на любом станке.</text>
+</svg>

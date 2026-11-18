@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="2" y="2" width="856" height="416" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Блокировка и маркировка (LOTO): «Не включать! Работают люди»</text>
+
+  <rect x="25" y="58" width="360" height="350" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <!-- рубильник -->
+  <rect x="70" y="90" width="140" height="190" rx="8" fill="#94A3B8" stroke="#475569" stroke-width="2"/>
+  <circle cx="140" cy="175" r="40" fill="#E2E8F0" stroke="#475569" stroke-width="2"/>
+  <rect x="132" y="140" width="16" height="70" rx="6" fill="#DC2626" stroke="#7F1D1D" stroke-width="2" transform="rotate(-90 140 175)"/>
+  <text x="95" y="126" font-size="12" font-weight="700" fill="#1E293B">O</text>
+  <text x="178" y="126" font-size="12" font-weight="700" fill="#1E293B">I</text>
+  <text x="140" y="240" text-anchor="middle" font-size="11" fill="#1E293B">ВВОДНОЙ</text>
+  <text x="140" y="254" text-anchor="middle" font-size="11" fill="#1E293B">ВЫКЛЮЧАТЕЛЬ</text>
+  <!-- замок -->
+  <path d="M170,205 a14 14 0 0 1 28,0 l0,16" fill="none" stroke="#475569" stroke-width="5"/>
+  <rect x="164" y="218" width="40" height="34" rx="5" fill="#DC2626" stroke="#7F1D1D" stroke-width="2"/>
+  <circle cx="184" cy="232" r="4" fill="#1E293B"/>
+  <!-- бирка -->
+  <line x1="184" y1="252" x2="230" y2="282" stroke="#475569" stroke-width="2"/>
+  <rect x="200" y="280" width="170" height="110" rx="6" fill="#FFFFFF" stroke="#DC2626" stroke-width="5"/>
+  <text x="285" y="312" text-anchor="middle" font-size="17" font-weight="700" fill="#DC2626">НЕ ВКЛЮЧАТЬ!</text>
+  <text x="285" y="337" text-anchor="middle" font-size="15" font-weight="700" fill="#1E293B">Работают люди</text>
+  <text x="285" y="362" text-anchor="middle" font-size="11" fill="#475569">Ф.И.О.: ________</text>
+  <text x="285" y="378" text-anchor="middle" font-size="11" fill="#475569">Дата, время: ____</text>
+
+  <rect x="395" y="58" width="440" height="350" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="415" y="86" font-size="15" font-weight="700" fill="#1E293B">Порядок (выполняет допущенный персонал)</text>
+  <g font-size="13" fill="#1E293B">
+    <text x="415" y="116"><tspan font-weight="700" fill="#DC2626">1.</tspan> Предупредить всех, кто работает на станке</text>
+    <text x="415" y="144"><tspan font-weight="700" fill="#DC2626">2.</tspan> Остановить станок штатно</text>
+    <text x="415" y="172"><tspan font-weight="700" fill="#DC2626">3.</tspan> Отключить <tspan font-weight="700">все</tspan> источники энергии:</text>
+    <text x="440" y="190">электричество, воздух, гидравлику</text>
+    <text x="415" y="218"><tspan font-weight="700" fill="#DC2626">4.</tspan> Повесить личный <tspan font-weight="700">замок</tspan> и <tspan font-weight="700">бирку</tspan></text>
+    <text x="415" y="246"><tspan font-weight="700" fill="#DC2626">5.</tspan> Проверить: станок не включается,</text>
+    <text x="440" y="264">давление сброшено, ось Z не опустится</text>
+    <text x="415" y="292"><tspan font-weight="700" fill="#DC2626">6.</tspan> Выполнить работы</text>
+    <text x="415" y="320"><tspan font-weight="700" fill="#DC2626">7.</tspan> Снимает замок <tspan font-weight="700">только тот, кто его повесил</tspan></text>
+  </g>
+  <rect x="410" y="340" width="410" height="56" rx="8" fill="#FEF2F2"/>
+  <text x="422" y="362" font-size="12" fill="#B91C1C"><tspan font-weight="700">Оператору:</tspan> увидели замок или бирку — никогда не</text>
+  <text x="422" y="381" font-size="12" fill="#B91C1C">включайте станок и не снимайте их, даже если «очень надо».</text>
+</svg>

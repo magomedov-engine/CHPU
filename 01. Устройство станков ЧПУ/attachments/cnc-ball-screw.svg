@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E53935"/></marker>
+    <marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7C3AED"/></marker>
+    <pattern id="thread" width="16" height="40" patternUnits="userSpaceOnUse">
+      <rect width="16" height="40" fill="#CBD5E1"/>
+      <line x1="0" y1="40" x2="16" y2="0" stroke="#64748B" stroke-width="3"/>
+    </pattern>
+  </defs>
+  <rect x="2" y="2" width="856" height="466" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Шарико-винтовая передача (ШВП): вращение → прямолинейное движение</text>
+
+  <!-- стол -->
+  <rect x="330" y="110" width="250" height="40" rx="5" fill="#E2E8F0" stroke="#64748B" stroke-width="2"/>
+  <text x="455" y="136" text-anchor="middle" font-size="15" fill="#1E293B">Стол станка</text>
+  <line x1="350" y1="85" x2="560" y2="85" stroke="#E53935" stroke-width="4" marker-start="url(#ak)" marker-end="url(#ak)"/>
+  <text x="455" y="75" text-anchor="middle" font-size="14" font-weight="700" fill="#E53935">движение стола</text>
+  <!-- направляющие -->
+  <rect x="140" y="150" width="660" height="10" fill="#94A3B8"/>
+  <text x="790" y="145" text-anchor="end" font-size="12" fill="#475569">линейная направляющая</text>
+
+  <!-- мотор -->
+  <rect x="40" y="200" width="100" height="90" rx="8" fill="#334155" stroke="#1E293B" stroke-width="2"/>
+  <text x="90" y="240" text-anchor="middle" font-size="13" fill="#F8FAFC">Серво-</text>
+  <text x="90" y="257" text-anchor="middle" font-size="13" fill="#F8FAFC">двигатель</text>
+  <rect x="20" y="222" width="20" height="46" fill="#1E293B"/>
+  <text x="30" y="310" text-anchor="middle" font-size="11" fill="#334155">энкодер</text>
+  <!-- муфта -->
+  <rect x="140" y="228" width="34" height="34" rx="4" fill="#F59E0B" stroke="#B45309" stroke-width="2"/>
+  <text x="157" y="300" text-anchor="middle" font-size="11" fill="#334155">муфта</text>
+  <!-- опоры -->
+  <rect x="180" y="210" width="40" height="70" rx="4" fill="#64748B" stroke="#334155" stroke-width="2"/>
+  <rect x="760" y="210" width="40" height="70" rx="4" fill="#64748B" stroke="#334155" stroke-width="2"/>
+  <text x="200" y="300" text-anchor="middle" font-size="11" fill="#334155">опора</text>
+  <text x="780" y="300" text-anchor="middle" font-size="11" fill="#334155">опора</text>
+  <!-- винт -->
+  <rect x="174" y="225" width="610" height="40" fill="url(#thread)" stroke="#475569" stroke-width="2"/>
+  <!-- гайка -->
+  <rect x="380" y="200" width="150" height="90" rx="6" fill="#475569" fill-opacity="0.9" stroke="#1E293B" stroke-width="2"/>
+  <line x1="420" y1="150" x2="420" y2="200" stroke="#475569" stroke-width="10"/>
+  <line x1="490" y1="150" x2="490" y2="200" stroke="#475569" stroke-width="10"/>
+  <g fill="#FDE68A" stroke="#B45309" stroke-width="1.5">
+    <circle cx="395" cy="221" r="6"/><circle cx="413" cy="221" r="6"/><circle cx="431" cy="221" r="6"/><circle cx="449" cy="221" r="6"/><circle cx="467" cy="221" r="6"/><circle cx="485" cy="221" r="6"/><circle cx="503" cy="221" r="6"/><circle cx="521" cy="221" r="6"/>
+    <circle cx="395" cy="269" r="6"/><circle cx="413" cy="269" r="6"/><circle cx="431" cy="269" r="6"/><circle cx="449" cy="269" r="6"/><circle cx="467" cy="269" r="6"/><circle cx="485" cy="269" r="6"/><circle cx="503" cy="269" r="6"/><circle cx="521" cy="269" r="6"/>
+  </g>
+  <text x="455" y="250" text-anchor="middle" font-size="13" font-weight="700" fill="#F8FAFC">ГАЙКА</text>
+
+  <!-- вращение -->
+  <path d="M 610 205 A 14 30 0 1 1 610 285" fill="none" stroke="#7C3AED" stroke-width="3" marker-end="url(#ap)"/>
+  <text x="640" y="320" font-size="13" fill="#7C3AED">винт вращается</text>
+
+  <!-- подписи -->
+  <rect x="40" y="340" width="780" height="110" rx="12" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <circle cx="64" cy="368" r="7" fill="#FDE68A" stroke="#B45309"/>
+  <text x="80" y="373" font-size="14" fill="#1E293B">Между винтом и гайкой катятся <tspan font-weight="700">стальные шарики</tspan> — трение качения вместо трения скольжения.</text>
+  <text x="62" y="400" font-size="14" fill="#1E293B">Пример: шаг винта 10 мм → <tspan font-weight="700">1 оборот двигателя = 10 мм</tspan> хода стола. 1/1000 оборота = 0,01 мм.</text>
+  <text x="62" y="427" font-size="14" fill="#1E293B">Плюсы: высокая точность, почти нет люфта (гайка с преднатягом), малый износ, высокая скорость.</text>
+</svg>

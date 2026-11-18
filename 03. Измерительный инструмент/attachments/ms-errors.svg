@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 480" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="2" y="2" width="856" height="476" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Шесть типичных ошибок измерения</text>
+  <g fill="#FFFFFF" stroke="#CBD5E1">
+    <rect x="25" y="58" width="263" height="200" rx="10"/><rect x="298" y="58" width="263" height="200" rx="10"/><rect x="571" y="58" width="263" height="200" rx="10"/>
+    <rect x="25" y="268" width="263" height="200" rx="10"/><rect x="298" y="268" width="263" height="200" rx="10"/><rect x="571" y="268" width="263" height="200" rx="10"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#1E293B">
+    <text x="40" y="82">1. Перекос</text><text x="313" y="82">2. Кончиками губок</text><text x="586" y="82">3. Мимо диаметра</text>
+    <text x="40" y="292">4. Грязь и заусенцы</text><text x="313" y="292">5. Параллакс</text><text x="586" y="292">6. Температура</text>
+  </g>
+
+  <!-- 1 -->
+  <rect x="110" y="100" width="60" height="90" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+  <line x1="94" y1="96" x2="110" y2="190" stroke="#DC2626" stroke-width="4"/>
+  <line x1="170" y1="100" x2="186" y2="194" stroke="#DC2626" stroke-width="4"/>
+  <text x="40" y="225" font-size="12" fill="#B91C1C">✘ губки не перпендикулярны</text>
+  <text x="40" y="242" font-size="12" fill="#B91C1C">поверхности → размер больше</text>
+
+  <!-- 2 -->
+  <rect x="330" y="96" width="200" height="14" fill="#CBD5E1" stroke="#475569"/>
+  <polygon points="365,110 385,110 385,200 377,206 365,190" fill="#CBD5E1" stroke="#475569"/>
+  <polygon points="445,110 465,110 465,190 453,206 445,200" fill="#CBD5E1" stroke="#475569"/>
+  <circle cx="415" cy="192" r="29" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+  <text x="313" y="225" font-size="12" fill="#B91C1C">✘ на кончиках губки пружинят</text>
+  <text x="313" y="242" font-size="12" fill="#15803D">✔ мерить ближе к штанге</text>
+
+  <!-- 3 -->
+  <circle cx="702" cy="145" r="48" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+  <line x1="660" y1="122" x2="744" y2="122" stroke="#DC2626" stroke-width="3"/>
+  <line x1="654" y1="145" x2="750" y2="145" stroke="#15803D" stroke-width="3"/>
+  <text x="760" y="126" font-size="11" fill="#DC2626">хорда</text>
+  <text x="760" y="149" font-size="11" fill="#15803D">Ø</text>
+  <text x="586" y="225" font-size="12" fill="#B91C1C">✘ не через центр → меньше</text>
+  <text x="586" y="242" font-size="12" fill="#15803D">✔ покачать, найти максимум</text>
+
+  <!-- 4 -->
+  <rect x="60" y="360" width="180" height="40" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+  <polygon points="140,360 146,346 152,360" fill="#B45309"/>
+  <rect x="110" y="320" width="70" height="26" fill="#CBD5E1" stroke="#475569"/>
+  <circle cx="200" cy="356" r="3" fill="#64748B"/><circle cx="210" cy="357" r="2" fill="#64748B"/>
+  <text x="185" y="340" font-size="11" fill="#475569">заусенец, стружка</text>
+  <text x="40" y="435" font-size="12" fill="#B91C1C">✘ стружка, СОЖ, заусенец</text>
+  <text x="40" y="452" font-size="12" fill="#15803D">✔ протереть деталь и губки</text>
+
+  <!-- 5 -->
+  <rect x="340" y="370" width="180" height="22" fill="#E2E8F0" stroke="#64748B"/>
+  <g stroke="#1E293B"><line x1="360" y1="370" x2="360" y2="380"/><line x1="380" y1="370" x2="380" y2="380"/><line x1="400" y1="370" x2="400" y2="380"/><line x1="420" y1="370" x2="420" y2="384"/><line x1="440" y1="370" x2="440" y2="380"/><line x1="460" y1="370" x2="460" y2="380"/><line x1="480" y1="370" x2="480" y2="380"/><line x1="500" y1="370" x2="500" y2="380"/></g>
+  <line x1="430" y1="345" x2="430" y2="369" stroke="#DC2626" stroke-width="2.5"/>
+  <ellipse cx="430" cy="315" rx="12" ry="7" fill="#FFFFFF" stroke="#15803D" stroke-width="2"/><circle cx="430" cy="315" r="3" fill="#15803D"/>
+  <line x1="430" y1="323" x2="430" y2="343" stroke="#15803D" stroke-dasharray="3 3"/>
+  <ellipse cx="350" cy="320" rx="12" ry="7" fill="#FFFFFF" stroke="#DC2626" stroke-width="2"/><circle cx="350" cy="320" r="3" fill="#DC2626"/>
+  <line x1="358" y1="326" x2="440" y2="378" stroke="#DC2626" stroke-dasharray="3 3"/>
+  <text x="313" y="435" font-size="12" fill="#B91C1C">✘ смотреть на шкалу сбоку</text>
+  <text x="313" y="452" font-size="12" fill="#15803D">✔ взгляд строго перпендикулярно</text>
+
+  <!-- 6 -->
+  <rect x="610" y="340" width="120" height="50" rx="4" fill="#FCA5A5" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="670" y="370" text-anchor="middle" font-size="13" font-weight="700" fill="#7F1D1D">+45 °C</text>
+  <rect x="760" y="310" width="12" height="70" rx="6" fill="#FFFFFF" stroke="#475569"/>
+  <rect x="763" y="330" width="6" height="48" fill="#DC2626"/>
+  <circle cx="766" cy="384" r="9" fill="#DC2626"/>
+  <text x="586" y="425" font-size="12" fill="#B91C1C">✘ горячая деталь больше:</text>
+  <text x="586" y="441" font-size="12" fill="#B91C1C">Ø50 при +45 °C ≈ +0,014 мм</text>
+  <text x="586" y="458" font-size="12" fill="#15803D">✔ мерить при ~20 °C / дать остыть</text>
+</svg>

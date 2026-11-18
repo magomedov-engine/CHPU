@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1E63D6"/></marker>
+    <marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7C3AED"/></marker>
+  </defs>
+  <rect x="2" y="2" width="856" height="416" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Попутное и встречное фрезерование (вид сверху, шпиндель M03)</text>
+
+  <!-- попутное -->
+  <rect x="25" y="58" width="400" height="350" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="45" y="84" font-size="15" font-weight="700" fill="#15803D">Попутное (climb) ✔</text>
+  <rect x="50" y="250" width="350" height="100" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+  <rect x="50" y="220" width="180" height="30" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+  <circle cx="230" cy="190" r="60" fill="#CBD5E1" fill-opacity="0.9" stroke="#475569" stroke-width="2"/>
+  <path d="M205,228 Q186,244 172,236 L180,226 Q192,232 204,220 Z" fill="#F59E0B" stroke="#B45309"/>
+  <path d="M190,140 A60 60 0 0 1 280,160" fill="none" stroke="#7C3AED" stroke-width="3" marker-end="url(#ap)"/>
+  <text x="240" y="125" font-size="12" fill="#7C3AED">вращение</text>
+  <line x1="200" y1="110" x2="120" y2="110" stroke="#1E63D6" stroke-width="3" marker-end="url(#ab)"/>
+  <text x="80" y="104" font-size="12" font-weight="700" fill="#1E63D6">подача</text>
+  <text x="60" y="300" font-size="12" fill="#92400E">деталь</text>
+  <g font-size="12" fill="#1E293B">
+    <text x="45" y="372">Стружка: <tspan font-weight="700">толстая → тонкая</tspan>. Зуб сразу режет.</text>
+    <text x="45" y="390">Лучше поверхность и стойкость. С G41 на ЧПУ — норма.</text>
+  </g>
+
+  <!-- встречное -->
+  <rect x="435" y="58" width="400" height="350" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="455" y="84" font-size="15" font-weight="700" fill="#B45309">Встречное (conventional)</text>
+  <rect x="460" y="250" width="350" height="100" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+  <rect x="640" y="220" width="170" height="30" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+  <circle cx="640" cy="190" r="60" fill="#CBD5E1" fill-opacity="0.9" stroke="#475569" stroke-width="2"/>
+  <path d="M665,228 Q684,244 698,236 L690,226 Q678,232 666,220 Z" fill="#F59E0B" stroke="#B45309"/>
+  <path d="M600,140 A60 60 0 0 1 690,160" fill="none" stroke="#7C3AED" stroke-width="3" marker-end="url(#ap)"/>
+  <text x="650" y="125" font-size="12" fill="#7C3AED">вращение</text>
+  <line x1="670" y1="110" x2="750" y2="110" stroke="#1E63D6" stroke-width="3" marker-end="url(#ab)"/>
+  <text x="760" y="104" font-size="12" font-weight="700" fill="#1E63D6">подача</text>
+  <g font-size="12" fill="#1E293B">
+    <text x="455" y="372">Стружка: <tspan font-weight="700">тонкая → толстая</tspan>. Зуб сначала трёт.</text>
+    <text x="455" y="390">Для литейной корки, станков с люфтом (G42).</text>
+  </g>
+</svg>

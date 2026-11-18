@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 440" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1E63D6"/></marker>
+  </defs>
+  <rect x="2" y="2" width="856" height="436" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Коррекция на радиус фрезы: G41 и G42</text>
+
+  <!-- G41 -->
+  <rect x="25" y="58" width="400" height="300" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="45" y="84" font-size="15" font-weight="700" fill="#1E63D6">G41 — фреза СЛЕВА от контура</text>
+  <rect x="120" y="130" width="200" height="140" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+  <rect x="104" y="114" width="232" height="172" rx="16" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="7 5"/>
+  <g stroke="#1E63D6" stroke-width="3" fill="none">
+    <line x1="140" y1="130" x2="300" y2="130" marker-end="url(#ab)"/>
+    <line x1="320" y1="145" x2="320" y2="255" marker-end="url(#ab)"/>
+    <line x1="300" y1="270" x2="140" y2="270" marker-end="url(#ab)"/>
+    <line x1="120" y1="255" x2="120" y2="145" marker-end="url(#ab)"/>
+  </g>
+  <circle cx="220" cy="114" r="16" fill="#CBD5E1" fill-opacity="0.85" stroke="#475569" stroke-width="2"/>
+  <circle cx="336" cy="200" r="16" fill="#CBD5E1" fill-opacity="0.85" stroke="#475569" stroke-width="2"/>
+  <text x="220" y="205" text-anchor="middle" font-size="13" fill="#92400E">деталь</text>
+  <text x="45" y="310" font-size="12" fill="#1E293B">Обход наружного контура <tspan font-weight="700">по часовой</tspan></text>
+  <text x="45" y="327" font-size="12" fill="#1E293B">→ фреза снаружи. Это <tspan font-weight="700">попутное</tspan> фрезерование</text>
+  <text x="45" y="344" font-size="12" fill="#1E293B">(при M03) — обычно предпочтительно.</text>
+
+  <!-- G42 -->
+  <rect x="435" y="58" width="400" height="300" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="455" y="84" font-size="15" font-weight="700" fill="#B45309">G42 — фреза СПРАВА от контура</text>
+  <rect x="530" y="130" width="200" height="140" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+  <rect x="514" y="114" width="232" height="172" rx="16" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="7 5"/>
+  <g stroke="#1E63D6" stroke-width="3" fill="none">
+    <line x1="710" y1="130" x2="550" y2="130" marker-end="url(#ab)"/>
+    <line x1="530" y1="145" x2="530" y2="255" marker-end="url(#ab)"/>
+    <line x1="550" y1="270" x2="710" y2="270" marker-end="url(#ab)"/>
+    <line x1="730" y1="255" x2="730" y2="145" marker-end="url(#ab)"/>
+  </g>
+  <circle cx="630" cy="114" r="16" fill="#CBD5E1" fill-opacity="0.85" stroke="#475569" stroke-width="2"/>
+  <circle cx="514" cy="200" r="16" fill="#CBD5E1" fill-opacity="0.85" stroke="#475569" stroke-width="2"/>
+  <text x="630" y="205" text-anchor="middle" font-size="13" fill="#92400E">деталь</text>
+  <text x="455" y="310" font-size="12" fill="#1E293B">Обход <tspan font-weight="700">против часовой</tspan> → фреза снаружи.</text>
+  <text x="455" y="327" font-size="12" fill="#1E293B">Это <tspan font-weight="700">встречное</tspan> фрезерование.</text>
+  <text x="455" y="344" font-size="12" fill="#1E293B">G40 — отмена коррекции.</text>
+
+  <rect x="25" y="368" width="810" height="58" rx="10" fill="#FEF3C7"/>
+  <text x="45" y="390" font-size="13" fill="#92400E"><tspan font-weight="700">Синяя линия</tspan> — контур из программы (= чертёж). <tspan font-weight="700">Оранжевый пунктир</tspan> — путь центра фрезы, его считает стойка по радиусу из корректора D.</text>
+  <text x="45" y="411" font-size="13" fill="#92400E">«Слева / справа» — если смотреть <tspan font-weight="700">по направлению движения</tspan> фрезы.</text>
+</svg>

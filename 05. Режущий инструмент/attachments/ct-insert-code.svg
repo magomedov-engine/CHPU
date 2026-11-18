@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 520" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="2" y="2" width="856" height="516" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Расшифровка токарной пластины по ISO 1832: CNMG 120408-PM</text>
+
+  <g font-family="Consolas, monospace" font-size="34" font-weight="700" text-anchor="middle" fill="#FFFFFF">
+    <rect x="70" y="62" width="60" height="62" rx="8" fill="#1D4ED8"/><text x="100" y="105">C</text>
+    <rect x="140" y="62" width="60" height="62" rx="8" fill="#0D9488"/><text x="170" y="105">N</text>
+    <rect x="210" y="62" width="60" height="62" rx="8" fill="#7C3AED"/><text x="240" y="105">M</text>
+    <rect x="280" y="62" width="60" height="62" rx="8" fill="#DB2777"/><text x="310" y="105">G</text>
+    <rect x="365" y="62" width="80" height="62" rx="8" fill="#EA580C"/><text x="405" y="105">12</text>
+    <rect x="455" y="62" width="80" height="62" rx="8" fill="#CA8A04"/><text x="495" y="105">04</text>
+    <rect x="545" y="62" width="80" height="62" rx="8" fill="#DC2626"/><text x="585" y="105">08</text>
+    <text x="650" y="105" fill="#64748B">-</text>
+    <rect x="675" y="62" width="100" height="62" rx="8" fill="#475569"/><text x="725" y="105">PM</text>
+  </g>
+  <g font-size="12" font-weight="700" fill="#475569" text-anchor="middle">
+    <text x="100" y="142">1</text><text x="170" y="142">2</text><text x="240" y="142">3</text><text x="310" y="142">4</text><text x="405" y="142">5</text><text x="495" y="142">6</text><text x="585" y="142">7</text><text x="725" y="142">8</text>
+  </g>
+
+  <rect x="25" y="155" width="510" height="350" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <g font-size="13" fill="#1E293B">
+    <rect x="40" y="170" width="22" height="22" rx="4" fill="#1D4ED8"/><text x="51" y="186" text-anchor="middle" font-weight="700" fill="#FFFFFF">C</text>
+    <text x="72" y="186"><tspan font-weight="700">Форма</tspan>: ромб 80° (также D 55°, V 35°, W, T, S, R)</text>
+    <rect x="40" y="211" width="22" height="22" rx="4" fill="#0D9488"/><text x="51" y="227" text-anchor="middle" font-weight="700" fill="#FFFFFF">N</text>
+    <text x="72" y="227"><tspan font-weight="700">Задний угол</tspan> 0° — негативная, кромки с двух сторон</text>
+    <text x="72" y="244" fill="#475569">(C = 7°, P = 11° — позитивные)</text>
+    <rect x="40" y="258" width="22" height="22" rx="4" fill="#7C3AED"/><text x="51" y="274" text-anchor="middle" font-weight="700" fill="#FFFFFF">M</text>
+    <text x="72" y="274"><tspan font-weight="700">Класс допуска</tspan> размеров (M — обычная, G — шлифованная)</text>
+    <rect x="40" y="298" width="22" height="22" rx="4" fill="#DB2777"/><text x="51" y="314" text-anchor="middle" font-weight="700" fill="#FFFFFF">G</text>
+    <text x="72" y="314"><tspan font-weight="700">Тип</tspan>: отверстие + стружколом с двух сторон</text>
+    <text x="72" y="331" fill="#475569">(M — с одной, A — без стружколома, T — под винт)</text>
+    <rect x="40" y="345" width="22" height="22" rx="4" fill="#EA580C"/><text x="51" y="361" text-anchor="middle" font-weight="700" fill="#FFFFFF">12</text>
+    <text x="72" y="361"><tspan font-weight="700">Размер</tspan>: длина кромки ≈ 12 мм (вписанная окружность 12,7)</text>
+    <rect x="40" y="385" width="22" height="22" rx="4" fill="#CA8A04"/><text x="51" y="401" text-anchor="middle" font-weight="700" fill="#FFFFFF">04</text>
+    <text x="72" y="401"><tspan font-weight="700">Толщина</tspan> 4,76 мм</text>
+    <rect x="40" y="425" width="22" height="22" rx="4" fill="#DC2626"/><text x="51" y="441" text-anchor="middle" font-weight="700" fill="#FFFFFF">08</text>
+    <text x="72" y="441"><tspan font-weight="700">Радиус при вершине</tspan> 0,8 мм (04 = 0,4; 12 = 1,2)</text>
+    <rect x="40" y="465" width="22" height="22" rx="4" fill="#475569"/><text x="51" y="481" text-anchor="middle" font-weight="700" fill="#FFFFFF">PM</text>
+    <text x="72" y="481"><tspan font-weight="700">Стружколом</tspan> производителя: P — сталь, M — средняя обработка</text>
+  </g>
+
+  <!-- рисунки -->
+  <rect x="545" y="155" width="290" height="350" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="560" y="180" font-size="13" font-weight="700" fill="#1E293B">Форма C (вид сверху)</text>
+  <polygon points="690,200 735,253.6 690,307.2 645,253.6" transform="rotate(-50 690 253.6)" fill="#CBD5E1" stroke="#475569" stroke-width="2"/>
+  <circle cx="690" cy="253.6" r="9" fill="#FFFFFF" stroke="#475569"/>
+  <text x="640" y="318" font-size="12" fill="#1E63D6">острый угол 80° — рабочий</text>
+  <text x="560" y="350" font-size="13" font-weight="700" fill="#1E293B">Негативная и позитивная</text>
+  <polygon points="575,370 635,370 635,400 575,400" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+  <text x="605" y="420" text-anchor="middle" font-size="11" fill="#475569">N — 0°, 2 стороны</text>
+  <polygon points="700,370 770,370 762,400 708,400" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+  <text x="735" y="420" text-anchor="middle" font-size="11" fill="#475569">C/P — 7°/11°, 1 сторона</text>
+  <text x="560" y="452" font-size="12" fill="#1E293B">Негативные — прочнее, больше</text>
+  <text x="560" y="469" font-size="12" fill="#1E293B">кромок (C: 4 шт.). Позитивные —</text>
+  <text x="560" y="486" font-size="12" fill="#1E293B">легче режут, для чистовой и расточки.</text>
+</svg>

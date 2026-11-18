@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="2" y="2" width="856" height="416" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Подъём и перемещение грузов</text>
+  <g fill="#FFFFFF" stroke="#CBD5E1"><rect x="25" y="58" width="263" height="350" rx="10"/><rect x="298" y="58" width="263" height="350" rx="10"/><rect x="571" y="58" width="264" height="350" rx="10"/></g>
+  <g stroke="#94A3B8" stroke-width="3"><line x1="40" y1="300" x2="273" y2="300"/><line x1="313" y1="300" x2="546" y2="300"/><line x1="586" y1="300" x2="820" y2="300"/></g>
+
+  <!-- правильно -->
+  <g stroke="#1E293B" stroke-width="7" stroke-linecap="round" fill="none">
+    <line x1="122" y1="158" x2="132" y2="232"/>
+    <polyline points="132,232 178,236 172,296"/>
+    <polyline points="132,232 168,244 160,296"/>
+    <polyline points="126,180 160,222 176,248"/>
+  </g>
+  <circle cx="120" cy="138" r="17" fill="#FDE2C4" stroke="#1E293B" stroke-width="3"/>
+  <rect x="166" y="240" width="56" height="58" rx="3" fill="#B45309" stroke="#78350F" stroke-width="2"/>
+  <text x="156" y="90" text-anchor="middle" font-size="16" font-weight="700" fill="#15803D">✔ Правильно</text>
+  <g font-size="12" fill="#1E293B">
+    <text x="40" y="326">• спина прямая, присесть ногами</text>
+    <text x="40" y="344">• груз — близко к телу</text>
+    <text x="40" y="362">• поднимать плавно, без рывков</text>
+    <text x="40" y="380">• не поворачиваться корпусом с грузом</text>
+  </g>
+
+  <!-- неправильно -->
+  <g stroke="#1E293B" stroke-width="7" stroke-linecap="round" fill="none">
+    <line x1="410" y1="190" x2="412" y2="296"/>
+    <line x1="410" y1="190" x2="402" y2="296"/>
+    <line x1="410" y1="190" x2="482" y2="206"/>
+    <line x1="476" y1="206" x2="486" y2="262"/>
+  </g>
+  <circle cx="500" cy="214" r="17" fill="#FDE2C4" stroke="#1E293B" stroke-width="3"/>
+  <rect x="468" y="262" width="56" height="36" rx="3" fill="#B45309" stroke="#78350F" stroke-width="2"/>
+  <path d="M420,186 Q446,170 474,194" fill="none" stroke="#DC2626" stroke-width="3"/>
+  <text x="430" y="90" text-anchor="middle" font-size="16" font-weight="700" fill="#DC2626">✘ Неправильно</text>
+  <g font-size="12" fill="#1E293B">
+    <text x="313" y="326">• наклон спиной, ноги прямые —</text>
+    <text x="325" y="344">вся нагрузка на поясницу</text>
+    <text x="313" y="362">• груз далеко от тела</text>
+    <text x="313" y="380">• рывок и поворот с грузом</text>
+  </g>
+
+  <!-- под грузом -->
+  <line x1="700" y1="66" x2="700" y2="118" stroke="#475569" stroke-width="4"/>
+  <path d="M700,118 q-12,0 -12,12 q0,12 12,12" fill="none" stroke="#475569" stroke-width="4"/>
+  <line x1="700" y1="140" x2="660" y2="170" stroke="#475569" stroke-width="3"/><line x1="700" y1="140" x2="740" y2="170" stroke="#475569" stroke-width="3"/>
+  <rect x="650" y="170" width="100" height="44" rx="3" fill="#78716C" stroke="#44403C" stroke-width="2"/>
+  <g stroke="#1E293B" stroke-width="6" stroke-linecap="round"><line x1="700" y1="250" x2="700" y2="280"/><line x1="700" y1="280" x2="690" y2="298"/><line x1="700" y1="280" x2="710" y2="298"/><line x1="700" y1="258" x2="686" y2="272"/><line x1="700" y1="258" x2="714" y2="272"/></g>
+  <circle cx="700" cy="240" r="10" fill="#FDE2C4" stroke="#1E293B" stroke-width="2"/>
+  <circle cx="700" cy="265" r="44" fill="none" stroke="#DC2626" stroke-width="6"/>
+  <line x1="669" y1="234" x2="731" y2="296" stroke="#DC2626" stroke-width="6"/>
+  <text x="703" y="90" font-size="16" font-weight="700" fill="#DC2626"></text>
+  <g font-size="12" fill="#1E293B">
+    <text x="586" y="326">• не стоять и не ходить под грузом</text>
+    <text x="586" y="344">• кран-балкой — только с допуском</text>
+    <text x="598" y="362">(обучение стропальщика)</text>
+    <text x="586" y="380">• исправные стропы, рым-болты</text>
+    <text x="586" y="398">• груз не оставлять на весу</text>
+  </g>
+</svg>

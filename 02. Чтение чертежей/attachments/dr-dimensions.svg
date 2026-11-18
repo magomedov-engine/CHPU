@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="d" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#1E293B"/></marker>
+  </defs>
+  <rect x="2" y="2" width="856" height="466" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Как устроен размер на чертеже</text>
+
+  <rect x="25" y="62" width="455" height="390" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <!-- ось -->
+  <line x1="68" y1="230" x2="395" y2="230" stroke="#1E293B" stroke-width="0.9" stroke-dasharray="14 3 2 3"/>
+  <!-- вал -->
+  <path d="M80,180 L205,180 L205,198.75 L375,198.75 L380,203.75 L380,256.25 L375,261.25 L205,261.25 L205,280 L80,280 Z" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.5"/>
+  <line x1="375" y1="198.75" x2="375" y2="261.25" stroke="#1E293B" stroke-width="2"/>
+
+  <g stroke="#1E293B" stroke-width="1">
+    <!-- выносные -->
+    <line x1="80" y1="284" x2="80" y2="342"/>
+    <line x1="380" y1="264" x2="380" y2="342"/>
+    <line x1="205" y1="284" x2="205" y2="312"/>
+    <line x1="76" y1="180" x2="48" y2="180"/>
+    <line x1="76" y1="280" x2="48" y2="280"/>
+    <!-- размерные -->
+    <line x1="80" y1="335" x2="380" y2="335" marker-start="url(#d)" marker-end="url(#d)"/>
+    <line x1="80" y1="305" x2="205" y2="305" marker-start="url(#d)" marker-end="url(#d)"/>
+    <line x1="56" y1="180" x2="56" y2="280" marker-start="url(#d)" marker-end="url(#d)"/>
+    <line x1="300" y1="198.75" x2="300" y2="261.25" marker-start="url(#d)" marker-end="url(#d)"/>
+    <!-- фаска -->
+    <polyline points="378,201 412,150 470,150" fill="none"/>
+  </g>
+  <g font-size="15" fill="#1E293B">
+    <text x="230" y="329" text-anchor="middle">120</text>
+    <text x="142" y="299" text-anchor="middle">50</text>
+    <text x="50" y="230" text-anchor="middle" transform="rotate(-90 50 230)">Ø40</text>
+    <text x="294" y="212" text-anchor="middle" transform="rotate(-90 294 212)">Ø25</text>
+    <text x="440" y="145" text-anchor="middle">2×45°</text>
+  </g>
+  <!-- метки -->
+  <g font-size="12" font-weight="700" fill="#1E293B" text-anchor="middle">
+    <circle cx="96" cy="360" r="10" fill="#F59E0B"/><text x="96" y="364">1</text>
+    <circle cx="300" cy="350" r="10" fill="#F59E0B"/><text x="300" y="354">2</text>
+    <circle cx="258" cy="320" r="10" fill="#F59E0B"/><text x="258" y="324">3</text>
+    <circle cx="396" cy="320" r="10" fill="#F59E0B"/><text x="396" y="324">4</text>
+  </g>
+  <line x1="96" y1="350" x2="82" y2="340" stroke="#F59E0B" stroke-width="1.5"/>
+  <line x1="388" y1="326" x2="381" y2="333" stroke="#F59E0B" stroke-width="1.5"/>
+  <g font-size="12" fill="#1E293B">
+    <text x="45" y="392"><tspan font-weight="700" fill="#B45309">1</tspan> — выносная линия: «выносит» границу за контур</text>
+    <text x="45" y="410"><tspan font-weight="700" fill="#B45309">2</tspan> — размерная линия со стрелками</text>
+    <text x="45" y="428"><tspan font-weight="700" fill="#B45309">3</tspan> — размерное число — всегда в мм, без «мм»</text>
+    <text x="45" y="446"><tspan font-weight="700" fill="#B45309">4</tspan> — стрелка упирается в выносную линию</text>
+  </g>
+  <text x="45" y="90" font-size="12" fill="#475569">Размеры — в натуральную величину, независимо от масштаба.</text>
+  <text x="45" y="106" font-size="12" fill="#475569">50 + 70 = 120: размер 70 не ставят — он и так ясен.</text>
+
+  <!-- знаки -->
+  <rect x="495" y="62" width="340" height="390" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="512" y="90" font-size="15" font-weight="700" fill="#1E293B">Знаки перед размерным числом</text>
+  <g font-size="14" fill="#1E293B">
+    <text x="512" y="122" font-weight="700" fill="#1E63D6">Ø20</text><text x="590" y="122">диаметр</text>
+    <text x="512" y="152" font-weight="700" fill="#1E63D6">R5</text><text x="590" y="152">радиус дуги, скругления</text>
+    <text x="512" y="182" font-weight="700" fill="#1E63D6">□30</text><text x="590" y="182">квадрат 30×30</text>
+    <text x="512" y="212" font-weight="700" fill="#1E63D6">Сфера Ø20</text><text x="610" y="212" font-size="13"> / SR10 — сфера</text>
+    <text x="512" y="242" font-weight="700" fill="#1E63D6">2×45°</text><text x="590" y="242">фаска 2 мм под 45°</text>
+    <text x="512" y="272" font-weight="700" fill="#1E63D6">∠1:10</text><text x="590" y="272">уклон</text>
+    <text x="512" y="302" font-weight="700" fill="#1E63D6">▷1:5</text><text x="590" y="302">конусность</text>
+    <text x="512" y="332" font-weight="700" fill="#1E63D6">s3</text><text x="590" y="332">толщина плоской детали</text>
+    <text x="512" y="362" font-weight="700" fill="#1E63D6">4 отв. Ø8</text><text x="600" y="362">четыре одинаковых отверстия</text>
+    <text x="512" y="392" font-weight="700" fill="#1E63D6">45*</text><text x="590" y="392">справочный размер</text>
+    <text x="512" y="422" font-weight="700" fill="#1E63D6">(50)</text><text x="590" y="422">тоже справочный (в скобках)</text>
+  </g>
+</svg>

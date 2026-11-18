@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="xr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#E53935"/></marker>
+    <marker id="zb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1E63D6"/></marker>
+  </defs>
+  <rect x="2" y="2" width="856" height="466" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Пример токарной программы: вал, операция 10 — профиль и точки</text>
+
+  <rect x="25" y="58" width="580" height="400" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <!-- патрон -->
+  <rect x="150" y="190" width="45" height="170" fill="#475569"/>
+  <rect x="195" y="215" width="14" height="22" fill="#334155"/>
+  <text x="172" y="182" text-anchor="middle" font-size="11" fill="#475569">патрон</text>
+  <!-- заготовка -->
+  <rect x="195" y="225" width="411" height="135" fill="#FDE68A" stroke="#B45309" stroke-dasharray="5 4"/>
+  <!-- готовый профиль -->
+  <polygon points="600,360 600,309.6 591,300.6 468,300.6 468,288 465,285 288,285 288,264 228,264 228,228 222,222 195,222 195,360" fill="#BFDBFE" stroke="#1E293B" stroke-width="2.5"/>
+  <line x1="140" y1="360" x2="620" y2="360" stroke="#1E293B" stroke-width="1" stroke-dasharray="14 4 3 4"/>
+  <!-- оси -->
+  <circle cx="600" cy="360" r="5" fill="#1E293B"/>
+  <line x1="600" y1="360" x2="600" y2="395" stroke="#E53935" stroke-width="0"/>
+  <line x1="500" y1="430" x2="455" y2="430" stroke="#1E63D6" stroke-width="2.5" marker-end="url(#zb)"/>
+  <text x="450" y="434" text-anchor="end" font-size="12" font-weight="700" fill="#1E63D6">−Z к патрону</text>
+  <line x1="555" y1="410" x2="555" y2="375" stroke="#E53935" stroke-width="2.5" marker-end="url(#xr)"/>
+  <text x="530" y="404" font-size="12" font-weight="700" fill="#E53935">+X</text>
+  <text x="596" y="378" text-anchor="end" font-size="11" font-weight="700" fill="#1E293B">X0 Z0</text>
+  <!-- точки -->
+  <g fill="#DC2626"><circle cx="600" cy="309.6" r="4"/><circle cx="591" cy="300.6" r="4"/><circle cx="468" cy="300.6" r="4"/><circle cx="468" cy="288" r="4"/><circle cx="465" cy="285" r="4"/><circle cx="288" cy="285" r="4"/><circle cx="288" cy="264" r="4"/><circle cx="228" cy="264" r="4"/><circle cx="228" cy="228" r="4"/><circle cx="222" cy="222" r="4"/></g>
+  <g font-size="12" font-weight="700" fill="#DC2626">
+    <text x="606" y="314">1</text><text x="594" y="294">2</text><text x="470" y="318">3</text><text x="452" y="296">4</text><text x="468" y="279">5</text>
+    <text x="290" y="300">6</text><text x="292" y="258">7</text><text x="232" y="280">8</text><text x="234" y="240">9</text><text x="210" y="216">10</text>
+  </g>
+  <g font-size="12" fill="#1E293B">
+    <text x="520" y="335">M20×1,5</text><text x="350" y="320">Ø25k6</text><text x="240" y="300">Ø32</text>
+  </g>
+  <text x="45" y="84" font-size="13" font-weight="700" fill="#1E293B">Показана верхняя половина (ось — штрихпунктир). Масштаб 6 px = 1 мм.</text>
+  <text x="45" y="104" font-size="12" fill="#B45309">Жёлтое — заготовка Ø45 (снимается), голубое — готовая деталь.</text>
+
+  <!-- таблица -->
+  <rect x="615" y="58" width="220" height="400" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="630" y="84" font-size="14" font-weight="700" fill="#1E293B">Точки контура</text>
+  <g font-family="Consolas, monospace" font-size="13" fill="#1E293B">
+    <text x="632" y="110" fill="#475569">№</text><text x="665" y="110" fill="#475569">X (Ø)</text><text x="750" y="110" fill="#475569">Z</text>
+    <text x="632" y="135">1</text><text x="665" y="135">16.8</text><text x="750" y="135">0</text>
+    <text x="632" y="160">2</text><text x="665" y="160">19.8</text><text x="750" y="160">-1.5</text>
+    <text x="632" y="185">3</text><text x="665" y="185">19.8</text><text x="750" y="185">-22.</text>
+    <text x="632" y="210">4</text><text x="665" y="210">24.008</text><text x="750" y="210">-22.</text>
+    <text x="632" y="235">5</text><text x="665" y="235">25.008</text><text x="750" y="235">-22.5</text>
+    <text x="632" y="260">6</text><text x="665" y="260">25.008</text><text x="750" y="260">-52.</text>
+    <text x="632" y="285">7</text><text x="665" y="285">32.</text><text x="750" y="285">-52.</text>
+    <text x="632" y="310">8</text><text x="665" y="310">32.</text><text x="750" y="310">-62.</text>
+    <text x="632" y="335">9</text><text x="665" y="335">44.</text><text x="750" y="335">-62.</text>
+    <text x="632" y="360">10</text><text x="665" y="360">46.</text><text x="750" y="360">-63.</text>
+  </g>
+  <text x="630" y="392" font-size="11" fill="#475569">X — диаметр. 25.008 —</text>
+  <text x="630" y="407" font-size="11" fill="#475569">середина допуска k6.</text>
+  <text x="630" y="422" font-size="11" fill="#475569">19.8 — под резьбу 6g</text>
+  <text x="630" y="437" font-size="11" fill="#475569">(чуть меньше Ø20).</text>
+</svg>

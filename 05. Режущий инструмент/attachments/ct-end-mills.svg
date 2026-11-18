@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 460" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <clipPath id="c1"><rect x="107" y="120" width="36" height="70"/></clipPath>
+    <clipPath id="c2"><rect x="312" y="120" width="36" height="70"/></clipPath>
+    <clipPath id="c3"><rect x="517" y="120" width="36" height="70"/></clipPath>
+    <clipPath id="c4"><rect x="722" y="120" width="36" height="66"/></clipPath>
+    <clipPath id="c5"><path d="M107,315 L143,315 L143,367 A18 18 0 0 1 107,367 Z"/></clipPath>
+  </defs>
+  <rect x="2" y="2" width="856" height="456" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Основные типы фрез</text>
+  <g fill="#FFFFFF" stroke="#CBD5E1">
+    <rect x="25" y="58" width="195" height="190" rx="10"/><rect x="230" y="58" width="195" height="190" rx="10"/><rect x="435" y="58" width="195" height="190" rx="10"/><rect x="640" y="58" width="195" height="190" rx="10"/>
+    <rect x="25" y="258" width="195" height="190" rx="10"/><rect x="230" y="258" width="195" height="190" rx="10"/><rect x="435" y="258" width="195" height="190" rx="10"/><rect x="640" y="258" width="195" height="190" rx="10"/>
+  </g>
+  <g fill="#CBD5E1" stroke="#475569" stroke-width="1.5">
+    <rect x="110" y="70" width="30" height="50"/><rect x="315" y="70" width="30" height="50"/><rect x="520" y="70" width="30" height="50"/><rect x="725" y="70" width="30" height="50"/>
+    <rect x="110" y="268" width="30" height="47"/><rect x="520" y="268" width="30" height="47"/><rect x="725" y="268" width="30" height="62"/>
+  </g>
+  <!-- 1 2 зуба -->
+  <rect x="107" y="120" width="36" height="70" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+  <g clip-path="url(#c1)" stroke="#475569" stroke-width="7" opacity="0.6"><line x1="90" y1="150" x2="160" y2="110"/><line x1="90" y1="200" x2="160" y2="160"/><line x1="90" y1="240" x2="160" y2="200"/></g>
+  <!-- 2 4 зуба -->
+  <rect x="312" y="120" width="36" height="70" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+  <g clip-path="url(#c2)" stroke="#475569" stroke-width="4" opacity="0.6"><line x1="295" y1="140" x2="365" y2="100"/><line x1="295" y1="162" x2="365" y2="122"/><line x1="295" y1="184" x2="365" y2="144"/><line x1="295" y1="206" x2="365" y2="166"/><line x1="295" y1="228" x2="365" y2="188"/></g>
+  <!-- 3 черновая -->
+  <rect x="517" y="120" width="36" height="70" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+  <g clip-path="url(#c3)" stroke="#475569" stroke-width="4" opacity="0.6"><line x1="500" y1="140" x2="570" y2="100"/><line x1="500" y1="162" x2="570" y2="122"/><line x1="500" y1="184" x2="570" y2="144"/><line x1="500" y1="206" x2="570" y2="166"/><line x1="500" y1="228" x2="570" y2="188"/></g>
+  <polyline points="517,124 512,130 517,136 512,142 517,148 512,154 517,160 512,166 517,172 512,178 517,184" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <polyline points="553,124 558,130 553,136 558,142 553,148 558,154 553,160 558,166 553,172 558,178 553,184" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <!-- 4 с радиусом -->
+  <path d="M722,120 L758,120 L758,180 Q758,190 748,190 L732,190 Q722,190 722,180 Z" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+  <g clip-path="url(#c4)" stroke="#475569" stroke-width="4" opacity="0.6"><line x1="705" y1="140" x2="775" y2="100"/><line x1="705" y1="162" x2="775" y2="122"/><line x1="705" y1="184" x2="775" y2="144"/><line x1="705" y1="206" x2="775" y2="166"/></g>
+  <!-- 5 сферическая -->
+  <path d="M107,315 L143,315 L143,367 A18 18 0 0 1 107,367 Z" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+  <g clip-path="url(#c5)" stroke="#475569" stroke-width="4" opacity="0.6"><line x1="90" y1="335" x2="160" y2="295"/><line x1="90" y1="357" x2="160" y2="317"/><line x1="90" y1="379" x2="160" y2="339"/><line x1="90" y1="401" x2="160" y2="361"/></g>
+  <!-- 6 торцевая -->
+  <rect x="315" y="268" width="30" height="40" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+  <rect x="270" y="308" width="120" height="50" rx="4" fill="#94A3B8" stroke="#475569" stroke-width="1.5"/>
+  <g fill="#F59E0B" stroke="#B45309"><rect x="276" y="352" width="14" height="12"/><rect x="306" y="352" width="14" height="12"/><rect x="340" y="352" width="14" height="12"/><rect x="370" y="352" width="14" height="12"/></g>
+  <!-- 7 фасочная -->
+  <polygon points="517,315 553,315 553,325 535,358 517,325" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+  <line x1="535" y1="315" x2="535" y2="358" stroke="#475569" stroke-width="2" opacity="0.6"/>
+  <text x="560" y="350" font-size="11" fill="#475569">90°</text>
+  <!-- 8 дисковая -->
+  <rect x="690" y="330" width="100" height="14" rx="3" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+  <polyline points="690,330 696,324 702,330 708,324 714,330 720,324 726,330 732,324 738,330 744,324 750,330 756,324 762,330 768,324 774,330 780,324 786,330 790,326" fill="none" stroke="#475569" stroke-width="1.2"/>
+
+  <g text-anchor="middle">
+    <g font-size="13" font-weight="700" fill="#1E293B">
+      <text x="122" y="212">Концевая 2–3 зуба</text><text x="327" y="212">Концевая 4+ зуба</text><text x="532" y="212">Черновая («кукуруза»)</text><text x="737" y="212">С радиусом на торце</text>
+      <text x="122" y="408">Сферическая</text><text x="327" y="408">Торцевая с пластинами</text><text x="532" y="408">Фасочная (зенковка)</text><text x="737" y="408">Дисковая / Т-образная</text>
+    </g>
+    <g font-size="11" fill="#475569">
+      <text x="122" y="230">алюминий: много места для стружки</text><text x="327" y="230">сталь: чистовые стенки, пазы</text><text x="532" y="230">большой съём, стружка дробится</text><text x="737" y="230">прочный угол, R на дне</text>
+      <text x="122" y="426">3D-поверхности, формы</text><text x="327" y="426">плоскости, большой съём</text><text x="532" y="426">фаски, центровка</text><text x="737" y="426">пазы, канавки, Т-пазы</text>
+    </g>
+  </g>
+</svg>

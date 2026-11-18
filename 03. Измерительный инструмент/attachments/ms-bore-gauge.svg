@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <pattern id="h" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="9" height="9" fill="#FFFFFF"/><line x1="0" y1="0" x2="0" y2="9" stroke="#1E293B" stroke-width="1.1"/>
+    </pattern>
+    <marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7C3AED"/></marker>
+  </defs>
+  <rect x="2" y="2" width="856" height="466" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Индикаторный нутромер: почему его покачивают</text>
+
+  <rect x="25" y="58" width="500" height="320" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="45" y="84" font-size="13" font-weight="700" fill="#1E293B">Нутромер в отверстии (разрез вдоль оси отверстия)</text>
+  <rect x="60" y="110" width="340" height="30" fill="url(#h)" stroke="#1E293B" stroke-width="2"/>
+  <rect x="60" y="300" width="340" height="30" fill="url(#h)" stroke="#1E293B" stroke-width="2"/>
+  <!-- наклонные положения -->
+  <line x1="144" y1="140" x2="196" y2="300" stroke="#94A3B8" stroke-width="3" stroke-dasharray="7 5"/>
+  <line x1="196" y1="140" x2="144" y2="300" stroke="#94A3B8" stroke-width="3" stroke-dasharray="7 5"/>
+  <!-- правильное -->
+  <line x1="170" y1="146" x2="170" y2="294" stroke="#15803D" stroke-width="5"/>
+  <circle cx="170" cy="144" r="5" fill="#15803D"/><circle cx="170" cy="296" r="5" fill="#15803D"/>
+  <!-- ручка -->
+  <line x1="170" y1="220" x2="460" y2="220" stroke="#64748B" stroke-width="8" stroke-linecap="round"/>
+  <rect x="405" y="210" width="50" height="20" rx="6" fill="#93C5FD" stroke="#1E63D6"/>
+  <line x1="470" y1="220" x2="470" y2="208" stroke="#64748B" stroke-width="6"/>
+  <circle cx="470" cy="178" r="30" fill="#FFFFFF" stroke="#475569" stroke-width="3"/>
+  <line x1="470" y1="178" x2="482" y2="156" stroke="#DC2626" stroke-width="2.5"/>
+  <path d="M 500 250 Q 515 220 500 190" fill="none" stroke="#7C3AED" stroke-width="2.5" marker-start="url(#ap)" marker-end="url(#ap)"/>
+  <text x="440" y="275" font-size="12" fill="#7C3AED">покачивать</text>
+  <text x="214" y="170" font-size="12" fill="#15803D">⟂ к оси — истинный Ø</text>
+  <text x="214" y="270" font-size="12" fill="#64748B">наклон — размер больше</text>
+  <text x="45" y="360" font-size="12" fill="#475569">Измерительный стержень и упор (зелёные точки) касаются стенок.</text>
+
+  <!-- график -->
+  <rect x="540" y="58" width="295" height="320" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="560" y="84" font-size="13" font-weight="700" fill="#1E293B">Что видно при покачивании</text>
+  <line x1="570" y1="340" x2="820" y2="340" stroke="#64748B" stroke-width="1.5"/>
+  <line x1="570" y1="340" x2="570" y2="110" stroke="#64748B" stroke-width="1.5"/>
+  <text x="695" y="362" text-anchor="middle" font-size="12" fill="#475569">наклон нутромера   −  0  +</text>
+  <text x="560" y="225" text-anchor="middle" font-size="12" fill="#475569" transform="rotate(-90 560 225)">измеряемый размер</text>
+  <path d="M580,141 Q695,459 810,141" fill="none" stroke="#1E63D6" stroke-width="3"/>
+  <circle cx="695" cy="300" r="7" fill="#DC2626"/>
+  <text x="695" y="235" text-anchor="middle" font-size="12" font-weight="700" fill="#DC2626">минимум =</text>
+  <text x="695" y="252" text-anchor="middle" font-size="12" font-weight="700" fill="#DC2626">истинный диаметр</text>
+  <line x1="695" y1="258" x2="695" y2="292" stroke="#DC2626" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <rect x="25" y="392" width="810" height="64" rx="10" fill="#FEF3C7"/>
+  <text x="45" y="416" font-size="13" fill="#92400E"><tspan font-weight="700">1)</tspan> Настроить на ноль по установочному кольцу или микрометру.  <tspan font-weight="700">2)</tspan> Ввести в отверстие и плавно покачивать.</text>
+  <text x="45" y="440" font-size="13" fill="#92400E"><tspan font-weight="700">3)</tspan> Стрелка доходит до крайней точки и поворачивает назад — это и есть отсчёт (наименьший размер).</text>
+</svg>

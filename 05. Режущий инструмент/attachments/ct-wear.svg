@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 520" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <g id="ins">
+      <polygon points="30,20 150,20 130,60 10,60" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+      <polygon points="10,60 130,60 130,95 10,95" fill="#94A3B8" stroke="#475569" stroke-width="1.5"/>
+      <polygon points="130,60 150,20 150,55 130,95" fill="#64748B" stroke="#475569" stroke-width="1.5"/>
+    </g>
+  </defs>
+  <rect x="2" y="2" width="856" height="516" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1E293B">Виды износа пластины: как выглядит и что делать</text>
+  <g fill="#FFFFFF" stroke="#CBD5E1">
+    <rect x="25" y="58" width="195" height="222" rx="10"/><rect x="230" y="58" width="195" height="222" rx="10"/><rect x="435" y="58" width="195" height="222" rx="10"/><rect x="640" y="58" width="195" height="222" rx="10"/>
+    <rect x="25" y="288" width="195" height="222" rx="10"/><rect x="230" y="288" width="195" height="222" rx="10"/><rect x="435" y="288" width="195" height="222" rx="10"/><rect x="640" y="288" width="195" height="222" rx="10"/>
+  </g>
+  <!-- 1 задняя поверхность -->
+  <use href="#ins" x="45" y="70"/>
+  <rect x="55" y="130" width="120" height="10" fill="#DC2626" opacity="0.85"/>
+  <!-- 2 лунка -->
+  <use href="#ins" x="250" y="70"/>
+  <ellipse cx="335" cy="112" rx="40" ry="8" fill="#DC2626" opacity="0.85"/>
+  <!-- 3 выкрашивание -->
+  <use href="#ins" x="455" y="70"/>
+  <polygon points="480,130 488,138 496,130 508,141 518,130 532,139 545,130" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.5"/>
+  <!-- 4 нарост -->
+  <use href="#ins" x="660" y="70"/>
+  <path d="M690,130 C695,112 712,108 722,118 C735,108 748,118 742,130 Z" fill="#A16207" stroke="#713F12"/>
+  <!-- 5 пластическая деформация -->
+  <use href="#ins" x="45" y="300"/>
+  <path d="M55,330 Q60,346 72,352 L55,352 Z" fill="#DC2626" opacity="0.85"/>
+  <path d="M55,330 Q58,350 80,362" fill="none" stroke="#DC2626" stroke-width="3"/>
+  <!-- 6 проточина -->
+  <use href="#ins" x="250" y="300"/>
+  <polygon points="320,360 332,360 326,378" fill="#DC2626"/>
+  <polygon points="318,360 334,360 326,352" fill="#DC2626"/>
+  <!-- 7 трещины -->
+  <use href="#ins" x="455" y="300"/>
+  <g stroke="#DC2626" stroke-width="2"><line x1="485" y1="352" x2="489" y2="340"/><line x1="502" y1="360" x2="506" y2="340"/><line x1="519" y1="356" x2="523" y2="340"/><line x1="536" y1="362" x2="540" y2="340"/><line x1="553" y1="355" x2="557" y2="340"/></g>
+  <!-- 8 поломка -->
+  <use href="#ins" x="660" y="300"/>
+  <polygon points="670,360 670,395 700,395 690,378 705,365 688,358 680,330" fill="#FFFFFF" stroke="#DC2626" stroke-width="2"/>
+
+  <g text-anchor="middle">
+    <g font-size="13" font-weight="700" fill="#1E293B">
+      <text x="122" y="188">По задней поверхности</text><text x="327" y="188">Лунка</text><text x="532" y="188">Выкрашивание</text><text x="737" y="188">Нарост</text>
+      <text x="122" y="418">Пластическая деформация</text><text x="327" y="418">Проточина</text><text x="532" y="418">Термотрещины</text><text x="737" y="418">Поломка</text>
+    </g>
+    <g font-size="11" fill="#475569">
+      <text x="122" y="208">нормальный износ;</text><text x="122" y="223">слишком быстрый —</text><text x="122" y="238">↓ скорость,</text><text x="122" y="253">износостойкий сплав</text>
+      <text x="327" y="208">высокая температура</text><text x="327" y="223">(сталь) →</text><text x="327" y="238">↓ скорость, сплав</text><text x="327" y="253">с покрытием Al₂O₃</text>
+      <text x="532" y="208">удары, вибрации,</text><text x="532" y="223">хрупкий сплав →</text><text x="532" y="238">жёсткость, ↓ подача</text><text x="532" y="253">на входе, прочный сплав</text>
+      <text x="737" y="208">налипание (Al, нерж.,</text><text x="737" y="223">мягкая сталь) →</text><text x="737" y="238">↑ скорость, острая</text><text x="737" y="253">позитивная пластина, СОЖ</text>
+      <text x="122" y="438">перегрев вершины →</text><text x="122" y="453">↓ скорость и подача,</text><text x="122" y="468">более твёрдый сплав,</text><text x="122" y="483">больше радиус</text>
+      <text x="327" y="438">по линии глубины —</text><text x="327" y="453">наклёп, корка →</text><text x="327" y="468">менять глубину ap,</text><text x="327" y="483">меньший угол κr</text>
+      <text x="532" y="438">перепады температуры</text><text x="532" y="453">(фрезерование, СОЖ</text><text x="532" y="468">с перерывами) → сухо</text><text x="532" y="483">или обильно, прочный сплав</text>
+      <text x="737" y="438">перегрузка, износ не</text><text x="737" y="453">заметили → ↓ подача,</text><text x="737" y="468">прочнее пластина,</text><text x="737" y="483">менять вовремя!</text>
+    </g>
+  </g>
+</svg>
